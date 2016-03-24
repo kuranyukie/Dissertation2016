@@ -1,0 +1,190 @@
+COUNTRY	X
+Afghanistan	60.808 
+Albania	31.594 
+Algeria	548.577 
+Angola	177.264 
+Antigua and Barbuda	2.032 
+Argentina	951.001 
+Armenia	24.371 
+Australia	1099.771 
+Austria	396.806 
+Azerbaijan	165.926 
+The Bahamas	9.031 
+Bahrain	62.166 
+Bangladesh	536.482 
+Barbados	4.567 
+Belarus	172.755 
+Belgium	483.331 
+Belize	2.975 
+Benin	19.862 
+Bhutan	5.871 
+Bolivia	70.279 
+Bosnia and Herzegovina	38.292 
+Botswana	35.870 
+Brazil	3275.799 
+Brunei Darussalam	32.958 
+Bulgaria	129.104 
+Burkina Faso	29.417 
+Burundi	8.409 
+Cabo Verde	3.330 
+Cambodia	50.161 
+Cameroon	67.783 
+Canada	1595.975 
+Central African Republic	2.865 
+Chad	29.641 
+Chile	410.853 
+China	18088.054 
+Colombia	642.469 
+Comoros	1.190 
+Democratic Republic of the Congo	57.775 
+Republic of Congo	28.358 
+Costa Rica	71.234 
+Cote+d'Ivoire	71.672 
+Croatia	88.733 
+Cyprus	27.516 
+Czech Republic	315.864 
+Denmark	250.676 
+Djibouti	2.876 
+Dominica	0.790 
+Dominican Republic	138.511 
+Ecuador	181.153 
+Egypt	946.591 
+El Salvador	51.193 
+Equatorial Guinea	28.621 
+Eritrea	7.842 
+Estonia	36.784 
+Ethiopia	145.100 
+Fiji	7.404 
+Finland	221.653 
+France	2591.170 
+Gabon	32.912 
+The Gambia	3.093 
+Georgia	34.345 
+Germany	3748.094 
+Ghana	108.458 
+Greece	285.297 
+Grenada	1.326 
+Guatemala	119.811 
+Guinea	15.128 
+Guinea-Bissau	2.532 
+Guyana	5.534 
+Haiti	18.376 
+Honduras	39.224 
+Hong Kong SAR	400.362 
+Hungary	247.113 
+Iceland	14.338 
+India	7411.093 
+Indonesia	2685.893 
+Islamic Republic of Iran	1357.028 
+Iraq	526.090 
+Ireland	236.398 
+Israel	272.112 
+Italy	2135.359 
+Jamaica	24.099 
+Japan	4767.157 
+Jordan	79.907 
+Kazakhstan	420.007 
+Kenya	133.015 
+Kiribati	0.189 
+Korea	1783.950 
+Kosovo	16.920 
+Kuwait	282.638 
+Kyrgyz Republic	19.229 
+Lao P.D.R.	34.532 
+Latvia	48.362 
+Lebanon	81.419 
+Lesotho	5.575 
+Liberia	3.711 
+Libya	97.938 
+Lithuania	79.933 
+Luxembourg	53.672 
+FYR Macedonia	27.723 
+Madagascar	34.052 
+Malawi	19.580 
+Malaysia	769.448 
+Maldives	4.554 
+Mali	27.500 
+Malta	14.122 
+Marshall Islands	0.182 
+Mauritania	15.622 
+Mauritius	23.528 
+Mexico	2148.884 
+Micronesia	0.308 
+Moldova	17.780 
+Mongolia	34.869 
+Montenegro	9.428 
+Morocco	259.240 
+Mozambique	31.213 
+Myanmar	244.365 
+Namibia	23.476 
+Nepal	67.137 
+Netherlands	808.796 
+New Zealand	160.801 
+Nicaragua	29.686 
+Niger	18.003 
+Nigeria	1052.937 
+Norway	346.337 
+Oman	162.967 
+Pakistan	884.231 
+Palau	0.250 
+Panama	76.770 
+Papua New Guinea	18.595 
+Paraguay	58.493 
+Peru	372.694 
+Philippines	693.420 
+Poland	959.845 
+Portugal	281.357 
+Qatar	306.616 
+Romania	393.830 
+Russia	3576.841 
+Rwanda	18.901 
+Samoa	0.997 
+San Marino	1.914 
+São Tomé and Príncipe	0.626 
+Saudi Arabia	1609.628 
+Senegal	34.201 
+Serbia	95.842 
+Seychelles	2.424 
+Sierra Leone	12.799 
+Singapore	454.346 
+Slovak Republic	153.195 
+Slovenia	61.557 
+Solomon Islands	1.094 
+South Africa	707.097 
+South Sudan	23.496 
+Spain	1572.112 
+Sri Lanka	218.242 
+St. Kitts and Nevis	1.281 
+St. Lucia	1.978 
+St. Vincent and the Grenadines	1.174 
+Sudan	160.189 
+Suriname	8.987 
+Swaziland	10.562 
+Sweden	450.517 
+Switzerland	473.331 
+Syria	n/a
+Taiwan Province of China	1078.792 
+Tajikistan	22.402 
+Tanzania	128.158 
+Thailand	1069.569 
+Timor-Leste	6.745 
+Togo	10.162 
+Tonga	0.502 
+Trinidad and Tobago	43.457 
+Tunisia	124.729 
+Turkey	1514.859 
+Turkmenistan	82.395 
+Tuvalu	0.035 
+Uganda	75.077 
+Ukraine	371.812 
+United Arab Emirates	617.138 
+United Kingdom	2569.218 
+United States	17348.075 
+Uruguay	71.675 
+Uzbekistan	172.298 
+Vanuatu	0.683 
+Venezuela	540.898 
+Vietnam	512.582 
+Yemen	104.008 
+Zambia	61.392 
+Zimbabwe	27.256 

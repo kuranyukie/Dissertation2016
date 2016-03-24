@@ -152,23 +152,57 @@ def task2() :
 def task3() :
     mapping   = parse_argv(sys.argv)[0]
     cast = [lambda _ : _] + [lambda _ : '[NONE]' if _ == '' else str(float(re.sub('[^0-9 \-\+\.]', '0', _)))] * 300
-    variables = ['X1', 'Y2', 'Y3']
+    variables = { 
+        'X1' : ('M', 0),
+        'X2' : ('V', 1),
+        'X3' : ('V', 2),
+        'X4' : ('V', 1),
+        'X5' : ('V', 2),
+        'X6' : ('M', 0),
+        'X7' : ('M', 0),
+        'X8' : ('M', 0),
+        'Y02' : ('M', 0),
+        'Y03' : ('M', 0),
+        'Y04' : ('M', 0),
+        'Y05' : ('M', 0),
+        'Y06' : ('M', 0),
+        'Y07' : ('M', 0),
+        'Y08' : ('M', 0),
+        'Y09' : ('M', 0),
+        'Y10' : ('M', 0),
+        'Y11' : ('M', 0),
+        'Y12' : ('M', 0),
+        'Y13' : ('M', 0),
+        'Y14' : ('M', 0),
+        'Y15' : ('M', 0),
+        'Y16' : ('M', 0),
+        'Y17' : ('M', 0),
+    }
     data = dict([(variable, load_txt(open('../data/%s.txt' % variable), primary_key = 'COUNTRY', cast = cast)) \
-        for variable in variables])
+        for variable in variables.keys()])
     result = {}
     for variable, datum in data.items() :
-        for country1 in datum.keys() :
-            for country2 in datum[country1].keys() :
-                if country2 == 'COUNTRY' or country1 == country2: continue
-                key = '%s@%s' % (country1, country2)
-                if result.get(key) is None :
-                    result[key] = { 'COUNTRY' : key }
-                result[key][variable] = datum[country1][country2]
+        if variables[variable][0] == 'M' :
+            for country1 in datum.keys() :
+                for country2 in datum[country1].keys() :
+                    if country2 == 'COUNTRY' or country1 == country2: continue
+                    key = '%s@%s' % (country1, country2)
+                    if result.get(key) is None :
+                        result[key] = { 'COUNTRY' : key , 'COUNTRY1' : country1, 'COUNTRY2' : country2 }
+                    result[key][variable] = datum[country1][country2]
+    for variable, datum in data.items() :
+        if variables[variable][0] == 'V' :
+            for key in result.keys() :
+                if variables[variable][1] == 1 and datum.get(result[key]['COUNTRY1']) is not None :
+                    result[key][variable] = datum[result[key]['COUNTRY1']]['X']
+                if variables[variable][1] == 2 and datum.get(result[key]['COUNTRY2']) is not None :
+                    result[key][variable] = datum[result[key]['COUNTRY2']]['X']
     # print j(result)
+    # exit()
     result = result.values()
     dump_txt(open('../data/data.txt', 'w')\
         , sorted(result, key = lambda datum : datum['COUNTRY'])\
-        , fields = ['COUNTRY'] + variables, default = '[NONE]')
+        , fields = ['COUNTRY'] + sorted(variables.keys()), default = '[NONE]')
 
 if __name__ == '__main__':
     task3()

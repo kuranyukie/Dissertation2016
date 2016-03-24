@@ -1,0 +1,274 @@
+COUNTRY	X
+WORLD	7265786 
+More developed regions	1248089 
+Less developed regions	6017697 
+Least developed countries	931900 
+Less developed regions, excluding least developed countries	5085796 
+Less developed regions, excluding China	4617094 
+High-income countries	1394959 
+Middle-income countries	5245909 
+Upper-middle-income countries	2371732 
+Lower-middle-income countries	2874178 
+Low-income countries	621978 
+Sub-Saharan Africa	936913 
+AFRICA	1156649 
+Eastern Africa	383675 
+Burundi	10817 
+Comoros	770 
+Djibouti	876 
+Eritrea	5110 
+Ethiopia	96959 
+Kenya	44864 
+Madagascar	23572 
+Malawi	16695 
+Mauritius	1269 
+Mayotte	234 
+Mozambique	27216 
+Reunion	855 
+Rwanda	11342 
+Seychelles	96 
+Somalia	10518 
+South Sudan	11911 
+Uganda	37783 
+United Republic of Tanzania	51823 
+Zambia	15721 
+Zimbabwe	15246 
+Middle Africa	147469 
+Angola	24228 
+Cameroon	22773 
+Central African Republic	4804 
+Chad	13587 
+Congo	4505 
+Democratic Republic of the Congo	74877 
+Equatorial Guinea	821 
+Gabon	1688 
+Sao Tome and Principe	186 
+Northern Africa	219736 
+Algeria	38934 
+Egypt	89580 
+Libya	6259 
+Morocco	33921 
+Sudan	39350 
+Tunisia	11130 
+Western Sahara	561 
+Southern Africa	61970 
+Botswana	2220 
+Lesotho	2109 
+Namibia	2403 
+South Africa	53969 
+Swaziland	1269 
+Western Africa	343799 
+Benin	10598 
+Burkina Faso	17589 
+Cabo Verde	514 
+Cote d'Ivoire	22157 
+Gambia	1928 
+Ghana	26787 
+Guinea	12276 
+Guinea-Bissau	1801 
+Liberia	4397 
+Mali	17086 
+Mauritania	3970 
+Niger	19114 
+Nigeria	177476 
+Saint Helena	4 
+Senegal	14673 
+Sierra Leone	6316 
+Togo	7115 
+ASIA	4349561 
+Eastern Asia	1605408 
+China	1369436 
+China, Hong Kong SAR	7227 
+China, Macao SAR	578 
+Dem. People's Republic of Korea	25027 
+Japan	126795 
+Mongolia	2910 
+Republic of Korea	50074 
+Other non-specified areas	23362 
+South-Central Asia	1865389 
+Central Asia	66288 
+Kazakhstan	17372 
+Kyrgyzstan	5844 
+Tajikistan	8296 
+Turkmenistan	5307 
+Uzbekistan	29470 
+Southern Asia	1799101 
+Afghanistan	31628 
+Bangladesh	159078 
+Bhutan	765 
+India	1295292 
+Iran (Islamic Republic of)	78144 
+Maldives	357 
+Nepal	28175 
+Pakistan	185044 
+Sri Lanka	20619 
+South-Eastern Asia	626181 
+Brunei Darussalam	417 
+Cambodia	15328 
+Indonesia	254455 
+Lao People's Democratic Republic	6689 
+Malaysia	29902 
+Myanmar	53437 
+Philippines	99139 
+Singapore	5507 
+Thailand	67726 
+Timor-Leste	1157 
+Viet Nam	92423 
+Western Asia	252583 
+Armenia	3006 
+Azerbaijan	9630 
+Bahrain	1362 
+Cyprus	1154 
+Georgia	4035 
+Iraq	35273 
+Israel	7939 
+Jordan	7416 
+Kuwait	3753 
+Lebanon	5612 
+Oman	4236 
+Qatar	2172 
+Saudi Arabia	30887 
+State of Palestine	4542 
+Syrian Arab Republic	18772 
+Turkey	77524 
+United Arab Emirates	9086 
+Yemen	26184 
+EUROPE	738016 
+Eastern Europe	293333 
+Belarus	9500 
+Bulgaria	7201 
+Czech Republic	10543 
+Hungary	9890 
+Poland	38620 
+Republic of Moldova	4072 
+Romania	19652 
+Russian Federation	143429 
+Slovakia	5423 
+Ukraine	45002 
+Northern Europe	101832 
+Channel Islands	163 
+Denmark	5647 
+Estonia	1316 
+Faeroe Islands	48 
+Finland	5480 
+Iceland	327 
+Ireland	4675 
+Isle of Man	87 
+Latvia	1989 
+Lithuania	2917 
+Norway	5148 
+Sweden	9703 
+United Kingdom	64331 
+Southern Europe	152629 
+Albania	2890 
+Andorra	73 
+Bosnia and Herzegovina	3818 
+Croatia	4256 
+Gibraltar	32 
+Greece	11001 
+Holy See	1 
+Italy	59789 
+Malta	418 
+Montenegro	625 
+Portugal	10402 
+San Marino	32 
+Serbia	8893 
+Slovenia	2066 
+Spain	46260 
+TFYR Macedonia	2076 
+Western Europe	190222 
+Austria	8517 
+Belgium	11226 
+France	64121 
+Germany	80646 
+Liechtenstein	37 
+Luxembourg	557 
+Monaco	38 
+Netherlands	16868 
+Switzerland	8211 
+LATIN AMERICA AND THE CARIBBEAN	627641 
+Caribbean	42897 
+Anguilla	14 
+Antigua and Barbuda	91 
+Aruba	103 
+Bahamas	383 
+Barbados	283 
+British Virgin Islands	30 
+Caribbean Netherlands	24 
+Cayman Islands	59 
+Cuba	11379 
+Curacao	156 
+Dominica	72 
+Dominican Republic	10406 
+Grenada	106 
+Guadeloupe	466 
+Haiti	10572 
+Jamaica	2783 
+Martinique	396 
+Montserrat	5 
+Puerto Rico	3687 
+Saint Kitts and Nevis	55 
+Saint Lucia	184 
+Saint Vincent and the Grenadines	109 
+Sint Maarten (Dutch part)	38 
+Trinidad and Tobago	1354 
+Turks and Caicos Islands	34 
+United States Virgin Islands	106 
+Central America	170461 
+Belize	352 
+Costa Rica	4758 
+El Salvador	6108 
+Guatemala	16015 
+Honduras	7962 
+Mexico	125386 
+Nicaragua	6014 
+Panama	3868 
+South America	414282 
+Argentina	42980 
+Bolivia (Plurinational State of)	10562 
+Brazil	206078 
+Chile	17763 
+Colombia	47791 
+Ecuador	15903 
+Falkland Islands (Malvinas)	3 
+French Guiana	261 
+Guyana	764 
+Paraguay	6553 
+Peru	30973 
+Suriname	538 
+Uruguay	3420 
+Venezuela (Bolivarian Republic of)	30694 
+NORTHERN AMERICA	355161 
+Bermuda	62 
+Canada	35588 
+Greenland	56 
+Saint Pierre and Miquelon	6 
+United States of America	319449 
+OCEANIA	38759 
+Australia/New Zealand	28118 
+Australia	23622 
+New Zealand	4495 
+Melanesia	9441 
+Fiji	886 
+New Caledonia	260 
+Papua New Guinea	7464 
+Solomon Islands	572 
+Vanuatu	259 
+Micronesia	521 
+Guam	168 
+Kiribati	110 
+Marshall Islands	53 
+Micronesia (Fed. States of)	104 
+Nauru	10 
+Northern Mariana Islands	55 
+Palau	21 
+Polynesia	679 
+American Samoa	55 
+Cook Islands	21 
+French Polynesia	280 
+Niue	2 
+Samoa	192 
+Tokelau	1 
+Tonga	106 
+Tuvalu	10 
+Wallis and Futuna Islands	13 
