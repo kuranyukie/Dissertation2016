@@ -1,31 +1,28 @@
 Afghanistan
-Afghanistan, Islamic Republic of
-AFRICA
+	Afghanistan, Islamic Republic of
 Albania
 Algeria
 American Samoa
-American+Samoa
+	American+Samoa
 Andorra
 Angola
 Anguilla
 Antarctica
 Antigua and Barbuda
-Antigua+and+Barbuda
+	Antigua+and+Barbuda
 Arab World
 Argentina
 Armenia
-Armenia, Republic of
+	Armenia, Republic of
 Aruba
-ASIA
 Australia
-Australia/New Zealand
 Austria
 Azerbaijan
-Azerbaijan, Republic of
+	Azerbaijan, Republic of
 Bahamas
-Bahamas, The
+	Bahamas, The
 Bahrain
-Bahrain, Kingdom of
+	Bahrain, Kingdom of
 Bangladesh
 Barbados
 Belarus
@@ -35,24 +32,24 @@ Benin
 Bermuda
 Bhutan
 Bolivia
-Bolivia (Plurinational State of)
+	Bolivia (Plurinational State of)
 Bonaire, Sint Eustatius and Saba
-Bonaire,+Sint+Eustatius+and+Saba
+	Bonaire,+Sint+Eustatius+and+Saba
 Bosnia and Herzegovina
-Bosnia+and+Herzegovina
+	Bosnia+and+Herzegovina
 Botswana
 Bouvet+Island
 Brazil
 British Indian Ocean Territory
+	British+Indian+Ocean+Territory
 British Virgin Islands
-British+Indian+Ocean+Territory
-British+Virgin+Islands
-Brunei
+	British+Virgin+Islands
 Brunei Darussalam
-Brunei+Darussalam
+	Brunei
+	Brunei+Darussalam
 Bulgaria
 Burkina Faso
-Burkina+Faso
+	Burkina+Faso
 Burma
 Burundi
 Cabo Verde
@@ -62,89 +59,87 @@ Canada
 Cape+Verde
 Caribbean
 Caribbean Netherlands
-Caribbean small states
-Caribbean+Netherlands
+	Caribbean+Netherlands
 Cayman Islands
-Cayman+Islands
+	Cayman+Islands
 Central African Republic
+	Central+African+Republic
 Central America
 Central Asia
 Central Europe and the Baltics
-Central+African+Republic
 Chad
 Channel Islands
 Chile
 China
+	China, P.R.: Mainland
 China, Hong Kong SAR
+	China, P.R.: Hong Kong
+	Hong Kong SAR
+	Hong Kong SAR, China
+	Hong+Kong
 China, Macao SAR
-China, P.R.: Hong Kong
-China, P.R.: Macao
-China, P.R.: Mainland
+	China, P.R.: Macao
+	Macao SAR, China
+	Macau
 Christmas Island
-Christmas+Island
+	Christmas+Island
 Cocos (Keeling) Islands
-Cocos+(Keeling)+Islands
+	Cocos+(Keeling)+Islands
 Collectivity+of+Saint+Martin
 Colombia
 Commonwealth+of+Puerto+Rico
 Commonwealth+of+The+Bahamas
 Comoros
 Congo
-Congo, Democratic Republic of
-Congo, Republic of
+	Congo, Democratic Republic of
+	Congo, Republic of
+	Republic of Congo
+	Republic+of+the+Congo
 Cook Islands
-Cook+Islands
+	Cook+Islands
 Costa Rica
-Costa+Rica
+	Costa+Rica
 Cote d'Ivoire
-Cote+d'Ivoire
-COUNTRY
+	Cote+d'Ivoire
+	Côte d'Ivoire
 Croatia
 Cuba
 Curacao
-Curacao & St. Maarten
+	Curaçao
 Curacao and Sint Maarten
-Curaçao
+	Curacao & St. Maarten
 Cyprus
 Czech Republic
-Czech+Republic
-Côte d'Ivoire
+	Czech+Republic
 Dem. People's Rep. Korea
-Dem. People's Republic of Korea
-Dem. Rep. Congo
+	Dem. People's Republic of Korea
 Democratic Republic of the Congo
-Democratic+Republic+of+the+Congo
+	Dem. Rep. Congo
+	Democratic+Republic+of+the+Congo
 Denmark
 Djibouti
 Dominica
 Dominican Republic
-Dominican+Republic
-East Asia & Pacific (all income levels)
-East Asia & Pacific (developing only)
+	Dominican+Republic
 East+Timor
-Eastern Africa
-Eastern Asia
-Eastern Europe
 Ecuador
 Egypt
 El Salvador
-El+Salvador
+	El+Salvador
 Equatorial Guinea
-Equatorial+Guinea
+	Equatorial+Guinea
 Eritrea
 Estonia
 Ethiopia
 Euro area
-EUROPE
-Europe & Central Asia (all income levels)
-Europe & Central Asia (developing only)
 European Union
 Faeroe Islands
 Falkland Islands
-Falkland Islands (Malvinas)
-Falkland+Islands+(Islas+Malvinas)
+	Falkland Islands (Malvinas)
+	Falkland+Islands+(Islas+Malvinas)
+	Falkland Islands (Islas Malvinas)
 Faroe Islands
-Faroe+Islands
+	Faroe+Islands
 Federated+States+of+Micronesia
 Fiji
 Finland
@@ -161,7 +156,7 @@ French+Southern+and+Antarctic+Lands
 FYR Macedonia
 Gabon
 Gambia
-Gambia, The
+	Gambia, The
 Georgia
 Germany
 Ghana
@@ -175,33 +170,26 @@ Guatemala
 Guernsey
 Guiana, French
 Guinea
-Guinea-Bissau
+	Guinea-Bissau
 Guyana
 Haiti
 Heard+Island+and+McDonald+Islands
 Heavily indebted poor countries (HIPC)
-High income
-High income: nonOECD
-High income: OECD
-High-income countries
 Holy See
 Honduras
-Hong Kong SAR
-Hong Kong SAR, China
-Hong+Kong
 Hungary
 Iceland
 India
 Indonesia
-International Organizations
+	Republic+of+Indonesia
 Iran
-Iran (Islamic Republic of)
-Iran, Islamic Republic of
+	Iran (Islamic Republic of)
+	Iran, Islamic Republic of
+	Islamic Republic of Iran
 Iraq
 Ireland
-Islamic Republic of Iran
 Isle of Man
-Isle+of+Man
+	Isle+of+Man
 Israel
 Italy
 Jamaica
@@ -212,48 +200,33 @@ Jersey
 Jordan
 Kazakhstan
 Kenya
-Kingdom+of+Norway
-Kingdom+of+Sweden
 Kiribati
 Korea
-Korea, Democratic People's Rep. of
-Korea, Republic of
-Kosova+(Kosovo)
+	Korea, Democratic People's Rep. of
+	Korea, Republic of
+	Republic of Korea
 Kosovo
-Kosovo, Republic of
+	Kosova+(Kosovo)
+	Kosovo, Republic of
+	Republic+of+Kosovo
 Kuwait
 Kyrgyz Republic
 Kyrgyzstan
 Lao P.D.R.
-Lao PDR
-Lao People's Democratic Republic
+	Lao PDR
+	Lao People's Democratic Republic
 Laos
-Latin America & Caribbean (all income levels)
-Latin America & Caribbean (developing only)
-LATIN AMERICA AND THE CARIBBEAN
 Latvia
-Least developed countries
-Least developed countries: UN classification
 Lebanon
 Lesotho
-Less developed regions
-Less developed regions, excluding China
-Less developed regions, excluding least developed countries
 Liberia
 Libya
 Liechtenstein
 Lithuania
-Low & middle income
-Low income
-Low-income countries
-Lower middle income
-Lower-middle-income countries
 Luxembourg
-Macao SAR, China
-Macau
 Macedonia
-Macedonia+(FYROM)
-Macedonia, FYR
+	Macedonia+(FYROM)
+	Macedonia, FYR
 Madagascar
 Malawi
 Malaysia
@@ -261,8 +234,8 @@ Maldives
 Mali
 Malta
 Marshall Islands
-Marshall Islands, Republic of
-Marshall+Islands
+	Marshall Islands, Republic of
+	Marshall+Islands
 Martinique
 Mauritania
 Mauritius
@@ -270,53 +243,45 @@ Mayotte
 Melanesia
 Mexico
 Micronesia
-Micronesia (Fed. States of)
-Micronesia, Federated States of
-Middle Africa
-Middle East & North Africa (all income levels)
-Middle East & North Africa (developing only)
-Middle income
-Middle-income countries
+	Micronesia (Fed. States of)
+	Micronesia, Federated States of
 Moldova
+	Republic of Moldova
 Monaco
 Mongolia
 Montenegro
 Montserrat
-More developed regions
 Morocco
 Mozambique
 Myanmar
-Myanmar+(Burma)
+	Myanmar+(Burma)
+	Republic+of+the+Union+of+Myanmar
 Namibia
 Nauru
 Nepal
 Netherlands
 Netherlands Antilles
-Netherlands+Antilles
+	Netherlands+Antilles
 New Caledonia
+	New+Caledonia
 New Zealand
-New+Caledonia
-New+Zealand
+	New+Zealand
 Nicaragua
 Niger
 Nigeria
 Niue
 Norfolk Island
-Norfolk+Island
+	Norfolk+Island
 North America
 North+Korea
 Northern Africa
 NORTHERN AMERICA
 Northern Europe
 Northern Mariana Islands
-Northern+Mariana+Islands
+	Northern+Mariana+Islands
 Norway
-Not Specified (including Confidential)
-OCEANIA
-OECD members
+	Kingdom+of+Norway
 Oman
-Other non-specified areas
-Other small states
 Pacific island small states
 Pakistan
 Palau
@@ -324,73 +289,68 @@ Palestine
 Palestinian+Territories
 Panama
 Papua New Guinea
-Papua+New+Guinea
+	Papua+New+Guinea
 Paraguay
 Peru
 Philippines
 Pitcairn Islands
-Pitcairn+Islands
+	Pitcairn+Islands
 Poland
 Polynesia
 Portugal
 Puerto Rico
-Puerto+Rico
+	Puerto+Rico
 Qatar
-Republic of Congo
-Republic of Korea
-Republic of Moldova
-Republic+of+Indonesia
-Republic+of+Kosovo
-Republic+of+the+Congo
-Republic+of+the+Union+of+Myanmar
 Reunion
 Romania
 Russia
 Russian Federation
-Russian+Federation
+	Russian+Federation
 Rwanda
 Saint Helena
 Saint Kitts and Nevis
+	Saint+Kitts+and+Nevis
 Saint Lucia
+	Saint+Lucia
 Saint Pierre and Miquelon
+	Saint+Pierre+and+Miquelon
 Saint Vincent and the Grenadines
 Saint+Barthelemy
-Saint+Kitts+and+Nevis
-Saint+Lucia
+	Saint-Barthelemy
 Saint+Martin
-Saint+Pierre+and+Miquelon
 Saint+Vincent+and+the+Grenadines
-Saint-Barthelemy
 Samoa
 San Marino
-San+Marino
+	San+Marino
 Sao Tome and Principe
-Sao+Tome+and+Principe
+	Sao+Tome+and+Principe
+	São Tomé and Principe
+	São Tomé and Príncipe
 Saudi Arabia
-Saudi+Arabia
+	Saudi+Arabia
 SEFER + SSIO (**)
 Senegal
 Serbia
-Serbia, Republic of
+	Serbia, Republic of
 Seychelles
 Sierra Leone
-Sierra+Leone
+	Sierra+Leone
 Singapore
 Sint Maarten
-Sint Maarten (Dutch part)
-Sint+Maarten
+	Sint Maarten (Dutch part)
+	Sint+Maarten
 Slovak Republic
 Slovakia
 Slovenia
 Small states
 Solomon Islands
-Solomon+Islands
+	Solomon+Islands
 Somalia
 South Africa
+	South+Africa
 South America
 South Asia
 South Sudan
-South+Africa
 South+Georgia+and+the+South+Sandwich+Islands
 South+Korea
 South+Sudan
@@ -401,55 +361,51 @@ Southern Asia
 Southern Europe
 Spain
 Sri Lanka
-Sri+Lanka
+	Sri+Lanka
 St+Helena
-St+Kitts+and+Nevis
-St+Lucia
 St+Pierre+and+Miquelon
-St+Vincent+and+the+Grenadines
 St. Kitts and Nevis
+	St+Kitts+and+Nevis
 St. Lucia
+	St+Lucia
 St. Martin (French part)
 St. Vincent and the Grenadines
+	St+Vincent+and+the+Grenadines
 State of Palestine
-Sub-Saharan Africa
-Sub-Saharan Africa (all income levels)
-Sub-Saharan Africa (developing only)
 Sudan
 Suriname
 Svalbard+and+Jan+Mayen
 Swaziland
 Sweden
+	Kingdom+of+Sweden
 Switzerland
 Syria
 Syrian Arab Republic
-São Tomé and Principe
-São Tomé and Príncipe
 Taiwan
-Taiwan Province of China
+	Taiwan Province of China
 Tajikistan
 Tanzania
 TFYR Macedonia
 Thailand
 The Bahamas
+	The+Bahamas
 The Gambia
-The+Bahamas
-The+Gambia
+	The+Gambia
 The+Netherlands
 Timor-Leste
-Timor-Leste, Dem. Rep. of
+	Timor-Leste, Dem. Rep. of
 Togo
 Tokelau
 Tokelau Islands
 Tonga
 Trinidad and Tobago
-Trinidad+&amp;+Tobago
-Trinidad+and+Tobago
+	Trinidad+&amp;+Tobago
+	Trinidad+and+Tobago
 Tunisia
 Turkey
 Turkmenistan
 Turks and Caicos Islands
-Turks+and+Caicos+Islands
+	Turks+and+Caicos+Islands
 Tuvalu
 U.S.+Virgin+Islands
 Uganda
@@ -458,45 +414,41 @@ United Arab Emirates
 United Kingdom
 United Republic of Tanzania
 United States
-United States of America
+	United States of America
+	United+States
 United States Virgin Islands
+	United+States+Virgin+Islands
 United+Arab+Emirates
 United+Kingdom
-United+States
 United+States+Minor+Outlying+Islands
-United+States+Virgin+Islands
-Upper middle income
-Upper-middle-income countries
 Uruguay
 US Pacific Islands
 US Virgin Islands
-US+Virgin+Islands
+	US+Virgin+Islands
 Uzbekistan
 Value of Total Investment
 Vanuatu
 Vatican
 Vatican+City
 Venezuela
-Venezuela (Bolivarian Republic of)
-Venezuela, Republica Bolivariana de
-Venezuela, República Bolivariana de
+	Venezuela (Bolivarian Republic of)
+	Venezuela, Republica Bolivariana de
+	Venezuela, República Bolivariana de
 Viet Nam
-Vietnam
+	Vietnam
 Virgin Islands
-Virgin Islands, British
-Virgin+Islands
+	Virgin Islands, British
+	Virgin+Islands
 Wallis and Futuna
-Wallis and Futuna Islands
-Wallis+and+Futuna
+	Wallis and Futuna Islands
+	Wallis+and+Futuna
 West Bank and Gaza
 Western Africa
 Western Asia
 Western Europe
 Western Sahara
-Western+Sahara
-WORLD
-World
+	Western+Sahara
 Yemen
-Yemen, Republic of
+	Yemen, Republic of
 Zambia
 Zimbabwe
