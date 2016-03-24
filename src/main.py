@@ -220,7 +220,7 @@ def task3() :
 def task4() :
     country_mapping = dict(load_txt(open('../data/country_names.txt'), is_matrix = True))
     data = []
-    ignore_words = set(['South', 'of', 'Islands', 'United', 'and', 'Asia', 'Western', 'Southern', 'Eastern', 'Northern', 'Central', 'Territories', 'Saint', 'St'])
+    ignore_words = set(['South', 'of', 'Islands', 'United', 'and', 'Asia', 'Western', 'Southern', 'Eastern', 'Northern', 'Central', 'Territories', 'Saint', 'St', 'Republic'])
     for country1, country2 in country_mapping.items() :
         if country1 == country2 :
             data.append((country1, set(re.split('[^a-zA-Z]+', country1))))
