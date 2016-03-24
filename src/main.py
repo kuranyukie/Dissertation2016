@@ -150,7 +150,7 @@ def task2() :
         # print index, country, set(countries) - set(counter[country])
 
 def task3() :
-    mapping   = parse_argv(sys.argv)[0]
+    mapping = parse_argv(sys.argv)[0]
     cast = [lambda _ : _] + [lambda _ : '[NONE]' if _ == '' else str(float(re.sub('[^0-9 \-\+\.]', '0', _)))] * 300
     variables = { 
         'X1' : ('M', 0),
@@ -181,15 +181,19 @@ def task3() :
     data = dict([(variable, load_txt(open('../data/%s.txt' % variable), primary_key = 'COUNTRY', cast = cast)) \
         for variable in variables.keys()])
     result = {}
+    country_mapping = {}
     for variable, datum in data.items() :
         if variables[variable][0] == 'M' :
-            for country1 in datum.keys() :
-                for country2 in datum[country1].keys() :
+            for raw_country1 in datum.keys() :
+                country1 = country_mapping.get(raw_country1)
+                if country1 is None : continue
+                for raw_country2 in datum[country1].keys() :
+                    country2 = country_mapping.get(raw_country2)
                     if country2 == 'COUNTRY' or country1 == country2: continue
                     key = '%s@%s' % (country1, country2)
                     if result.get(key) is None :
-                        result[key] = { 'COUNTRY' : key , 'COUNTRY1' : country1, 'COUNTRY2' : country2 }
-                    result[key][variable] = datum[country1][country2]
+                        result[key] = { 'COUNTRY' : key , 'COUNTRY1' : raw_country1, 'COUNTRY2' : raw_country2 }
+                    result[key][variable] = datum[raw_country1][raw_country2]
     for variable, datum in data.items() :
         if variables[variable][0] == 'V' :
             for key in result.keys() :
@@ -197,12 +201,33 @@ def task3() :
                     result[key][variable] = datum[result[key]['COUNTRY1']]['X']
                 if variables[variable][1] == 2 and datum.get(result[key]['COUNTRY2']) is not None :
                     result[key][variable] = datum[result[key]['COUNTRY2']]['X']
+    xs = ['X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'X7', 'X8']
+    ys = ['Y02', 'Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'Y16', 'Y17']
+    for key in result.keys() :
+        x_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, xs))
+        y_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, ys))
+        if len(x_values) < len(xs) or len(y_values) == 0 : result.pop(key)
+        else :
+            y_values = map(float, y_values)
+            result[key]['Y'] = str(calc_mean(y_values))
     # print j(result)
     # exit()
     result = result.values()
     dump_txt(open('../data/data.txt', 'w')\
         , sorted(result, key = lambda datum : datum['COUNTRY'])\
-        , fields = ['COUNTRY'] + sorted(variables.keys()), default = '[NONE]')
+        , fields = ['COUNTRY'] + sorted(variables.keys())[:8] + ['Y'], default = '[NONE]')
+
+def task4() :
+    country_mapping = dict(load_txt(open('../data/country_names.txt'), is_matrix = True))
+    data = []
+    ignore_words = set(['South', 'of', 'Islands', 'United', 'and', 'Asia', 'Western', 'Southern', 'Eastern', 'Northern', 'Central', 'Territories', 'Saint', 'St'])
+    for country1, country2 in country_mapping.items() :
+        if country1 == country2 :
+            data.append((country1, set(re.split('[^a-zA-Z]+', country1))))
+            for country, words in data[:-1] :
+                if len(words.intersection(data[-1][1]) - ignore_words) > 0 :
+                    print country1, '@', country
+    # print j(country_mapping.keys())
 
 if __name__ == '__main__':
-    task3()
+    task4()
