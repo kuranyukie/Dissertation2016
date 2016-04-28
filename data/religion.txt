@@ -1,0 +1,236 @@
+COUNTRY	RELIGIONS(%)
+Afghanistan	Muslim
+Albania	Muslim
+Algeria	Muslim
+American Samoa	Christian
+Andorra	Roman Catholic
+Angola	indigenous beliefs
+Anguilla	Protestant
+Antigua and Barbuda	Protestant
+Argentina	nominally Roman Catholic
+Armenia	Armenian Apostolic
+Aruba	Roman Catholic
+Australia	Protestant
+Austria	Catholic
+Azerbaijan	Muslim
+Bahamas, The	Protestant
+Bahrain	Muslim
+Bangladesh	Muslim
+Barbados	Protestant
+Belarus	Eastern Orthodox
+Belgium	Roman Catholic
+Belize	Roman Catholic
+Benin	Catholic
+Bermuda	Protestant
+Bhutan	Lamaistic Buddhist
+Bolivia	Roman Catholic
+Bosnia and Herzegovina	Muslim
+Botswana	Christian
+Brazil	Roman Catholic
+British Virgin Islands	Protestant
+Brunei	Muslim
+Bulgaria	Eastern Orthodox
+Burkina Faso	Muslim
+Burma	Buddhist
+Burundi	Catholic
+Cabo Verde	Roman Catholic
+Cambodia	Buddhist
+Cameroon	Christian
+Canada	Catholic
+Cayman Islands	Protestant
+Central African Republic	indigenous beliefs
+Chad	Muslim
+Chile	Roman Catholic
+China	Buddhist
+Christmas Island	Buddhist
+Cocos (Keeling) Islands	Sunni Muslim
+Colombia	Roman Catholic
+Comoros	Sunni Muslim
+Congo, Democratic Republic of the	Roman Catholic
+Congo, Republic of the	Roman Catholic
+Cook Islands	Protestant
+Costa Rica	Roman Catholic
+Cote d'Ivoire	Muslim
+Croatia	Roman Catholic
+Cuba	Roman Catholic
+Curacao	Roman Catholic
+Cyprus	Orthodox Christian
+Czech Republic	Roman Catholic
+Denmark	Evangelical Lutheran
+Djibouti	Muslim
+Dominica	Roman Catholic
+Dominican Republic	Roman Catholic
+Ecuador	Roman Catholic
+Egypt	Muslim
+El Salvador	Roman Catholic
+Equatorial Guinea	Christian
+Eritrea	Muslim
+Estonia	Orthodox Christian
+Ethiopia	Ethiopian Orthodox
+European Union	Roman Catholic
+Falkland Islands	Christian
+Faroe Islands	Evangelical Lutheran
+Fiji	Protestant
+Finland	Lutheran
+France	Christian
+French Polynesia	Protestant
+Gabon	Catholic
+Gambia, The	Muslim
+Gaza Strip	Muslim
+Georgia	Orthodox Christian
+Germany	Protestant
+Ghana	Christian
+Gibraltar	Roman Catholic
+Greece	Greek Orthodox
+Greenland	Evangelical Lutheran
+Grenada	Roman Catholic
+Guam	Roman Catholic
+Guatemala	Roman Catholic
+Guernsey	Protestant
+Guinea-Bissau	Muslim
+Guinea	Muslim
+Guyana	Protestant
+Haiti	Roman Catholic
+Holy See (Vatican City)	Roman Catholic
+Honduras	Roman Catholic
+Hong Kong	eclectic mixture of local religions
+Hungary	Roman Catholic 37.2%
+Iceland	Evangelical Lutheran Church of Iceland
+India	Hindu
+Indonesia	Muslim
+Iran	Muslim
+Iraq	Muslim
+Ireland	Roman Catholic
+Isle of Man	Protestant
+Israel	Jewish
+Italy	Christian
+Jamaica	Protestant
+Japan	Shintoism
+Jersey	Protestant
+Jordan	Muslim
+Kazakhstan	Muslim
+Kenya	Christian
+Kiribati	Roman Catholic
+Korea, North	Buddhist
+Korea, South	Christian
+Kosovo	Muslim
+Kuwait	Muslim
+Kyrgyzstan	Muslim
+Laos	Buddhist
+Latvia	Lutheran
+Lebanon	Muslim
+Lesotho	Christian
+Liberia	Christian
+Libya	Muslim
+Liechtenstein	Roman Catholic
+Lithuania	Roman Catholic
+Luxembourg	Roman Catholic
+Macau	Buddhist
+Macedonia	Macedonian Orthodox
+Madagascar	Christian
+Malawi	Christian
+Malaysia	Muslim
+Maldives	Sunni Muslim
+Mali	Muslim
+Malta	Roman Catholic
+Marshall Islands	Protestant
+Mauritania	Muslim
+Mauritius	Hindu
+Mexico	Roman Catholic
+Micronesia, Federated States of	Roman Catholic
+Moldova	Orthodox
+Monaco	Roman Catholic
+Mongolia	Buddhist
+Montenegro	Orthodox
+Montserrat	Protestant
+Morocco	Muslim
+Mozambique	Roman Catholic
+Namibia	Christian
+Nauru	Protestant
+Nepal	Hindu
+Netherlands	Roman Catholic
+New Caledonia	Roman Catholic
+New Zealand	Christian
+Nicaragua	Roman Catholic
+Nigeria	Muslim
+Niger	Muslim
+Niue	Ekalesia Niue
+Norfolk Island	Protestant
+Northern Mariana Islands	Christian
+Norway	Church of Norway
+Oman	Muslim
+Pakistan	Muslim
+Palau	Roman Catholic
+Panama	Roman Catholic
+Papua New Guinea	Roman Catholic
+Paraguay	Roman Catholic
+Peru	Roman Catholic
+Philippines	Catholic
+Pitcairn Islands	Seventh-Day Adventist
+Poland	Catholic
+Portugal	Roman Catholic
+Puerto Rico	Roman Catholic
+Qatar	Muslim
+Romania	Eastern Orthodox
+Russia	Russian Orthodox
+Rwanda	Roman Catholic
+Saint Barthelemy	Roman Catholic
+Saint Helena, Ascension, and Tristan da Cunha	Protestant
+Saint Kitts and Nevis	Anglican
+Saint Lucia	Roman Catholic
+Saint Martin	Roman Catholic
+Saint Pierre and Miquelon	Roman Catholic
+Saint Vincent and the Grenadines	Protestant
+Samoa	Protestant
+San Marino	Roman Catholic
+Sao Tome and Principe	Catholic
+Saudi Arabia	Muslim
+Senegal	Muslim
+Serbia	Serbian Orthodox
+Seychelles	Roman Catholic
+Sierra Leone	Muslim
+Singapore	Buddhist
+Sint Maarten	Protestant
+Slovakia	Roman Catholic
+Slovenia	Catholic
+Solomon Islands	Protestant
+Somalia	Sunni Muslim
+South Sudan	Christian
+Spain	Roman Catholic
+Sri Lanka	Buddhist
+Sudan	Sunni Muslim
+Suriname	Hindu
+Swaziland	Zionist
+Sweden	Lutheran
+Switzerland	Roman Catholic
+Syria	Muslim
+Taiwan	Buddhist
+Tajikistan	Sunni Muslim
+Tanzania	Christian
+Thailand	Buddhist
+Timor-Leste	Roman Catholic
+Tokelau	Congregational Christian Church
+Tonga	Protestant
+Trinidad and Tobago	Protestant
+Tunisia	Muslim
+Turkey	Muslim
+Turkmenistan	Muslim
+Turks and Caicos Islands	Protestant
+Tuvalu	Protestant
+Uganda	Roman Catholic
+Ukraine	Orthodox
+United Arab Emirates	Muslim
+United Kingdom	Christian
+United States	Protestant
+Uruguay	Roman Catholic
+Uzbekistan	Muslim
+Vanuatu	Protestant
+Venezuela	Roman Catholic
+Vietnam	Buddhist
+Virgin Islands	Protestant
+Wallis and Futuna	Roman Catholic
+West Bank	Muslim
+Western Sahara	Muslim
+Yemen	Muslim
+Zambia	Protestant
+Zimbabwe	Protestant

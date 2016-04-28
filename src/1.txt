@@ -1,0 +1,186 @@
+Korea @ North+Korea
+US Virgin Islands @ U.S.+Virgin+Islands
+Netherlands Antilles @ Caribbean Netherlands
+China, Macao SAR @ China, Hong Kong SAR
+Netherlands @ Caribbean Netherlands
+Netherlands @ Netherlands Antilles
+St+Helena @ Saint Helena
+South+Korea @ North+Korea
+South+Korea @ Korea
+FYR Macedonia @ TFYR Macedonia
+United States Virgin Islands @ United States
+United States Virgin Islands @ U.S.+Virgin+Islands
+United States Virgin Islands @ US Virgin Islands
+United Arab Emirates @ Arab World
+China @ China, Hong Kong SAR
+China @ China, Macao SAR
+French Southern Territories @ French Polynesia
+Tokelau @ Tokelau Islands
+Guiana, French @ French Polynesia
+Guiana, French @ French Southern Territories
+Svalbard+and+Jan+Mayen @ Jan+Mayen
+Saint+Vincent+and+the+Grenadines @ South+Georgia+and+the+South+Sandwich+Islands
+Curacao @ Curacao and Sint Maarten
+Democratic Republic of the Congo @ South+Georgia+and+the+South+Sandwich+Islands
+Democratic Republic of the Congo @ Saint+Vincent+and+the+Grenadines
+French+Southern+and+Antarctic+Lands @ French Polynesia
+French+Southern+and+Antarctic+Lands @ French Southern Territories
+French+Southern+and+Antarctic+Lands @ Guiana, French
+Vatican+City @ Vatican
+Southern Africa @ South Africa
+Western Europe @ Northern Europe
+Saint Pierre and Miquelon @ St+Pierre+and+Miquelon
+Heard+Island+and+McDonald+Islands @ Jarvis+Island
+Bonaire, Sint Eustatius and Saba @ Curacao and Sint Maarten
+Tanzania @ United Republic of Tanzania
+Christmas Island @ Jarvis+Island
+Christmas Island @ Heard+Island+and+McDonald+Islands
+Caribbean @ Caribbean Netherlands
+Southern Europe @ Northern Europe
+Southern Europe @ Western Europe
+Virgin Islands @ U.S.+Virgin+Islands
+Virgin Islands @ US Virgin Islands
+Virgin Islands @ United States Virgin Islands
+Timor-Leste @ East+Timor
+French Territories: New Caledonia @ French Polynesia
+French Territories: New Caledonia @ French Southern Territories
+French Territories: New Caledonia @ Guiana, French
+French Territories: New Caledonia @ French+Southern+and+Antarctic+Lands
+United+Arab+Emirates @ Arab World
+United+Arab+Emirates @ United Arab Emirates
+The+Netherlands @ Caribbean Netherlands
+The+Netherlands @ Netherlands Antilles
+The+Netherlands @ Netherlands
+St. Vincent and the Grenadines @ South+Georgia+and+the+South+Sandwich+Islands
+St. Vincent and the Grenadines @ Saint+Vincent+and+the+Grenadines
+St. Vincent and the Grenadines @ Democratic Republic of the Congo
+Guinea @ Equatorial Guinea
+Western Africa @ South Africa
+Western Africa @ Southern Africa
+Commonwealth+of+The+Bahamas @ Bahamas
+Commonwealth+of+The+Bahamas @ Commonwealth+of+Puerto+Rico
+Commonwealth+of+The+Bahamas @ The+Netherlands
+Georgia @ South+Georgia+and+the+South+Sandwich+Islands
+Polynesia @ French Polynesia
+Lao P.D.R. @ Heavily indebted poor countries (HIPC)
+Sudan @ South+Sudan
+SEFER + SSIO (**) @ Heavily indebted poor countries (HIPC)
+SEFER + SSIO (**) @ Lao P.D.R.
+Papua New Guinea @ Equatorial Guinea
+Papua New Guinea @ French Territories: New Caledonia
+Papua New Guinea @ Guinea
+US Pacific Islands @ US Virgin Islands
+United+States+Minor+Outlying+Islands @ United States
+United+States+Minor+Outlying+Islands @ United States Virgin Islands
+United Kingdom @ United+Kingdom
+Congo @ Democratic Republic of the Congo
+Federated+States+of+Micronesia @ United States
+Federated+States+of+Micronesia @ United States Virgin Islands
+Federated+States+of+Micronesia @ Micronesia
+Federated+States+of+Micronesia @ United+States+Minor+Outlying+Islands
+The Gambia @ Gambia
+The Gambia @ The+Netherlands
+The Gambia @ Commonwealth+of+The+Bahamas
+Northern Africa @ South Africa
+Northern Africa @ Southern Africa
+Northern Africa @ Western Africa
+The Bahamas @ Bahamas
+The Bahamas @ The+Netherlands
+The Bahamas @ Commonwealth+of+The+Bahamas
+The Bahamas @ The Gambia
+Dem. People's Rep. Korea @ North+Korea
+Dem. People's Rep. Korea @ Korea
+Dem. People's Rep. Korea @ South+Korea
+French Guiana @ French Polynesia
+French Guiana @ French Southern Territories
+French Guiana @ Guiana, French
+French Guiana @ French+Southern+and+Antarctic+Lands
+French Guiana @ French Territories: New Caledonia
+New Zealand @ French Territories: New Caledonia
+New Zealand @ Papua New Guinea
+Samoa @ American Samoa
+Norfolk Island @ Jarvis+Island
+Norfolk Island @ Heard+Island+and+McDonald+Islands
+Norfolk Island @ Christmas Island
+Saint Vincent and the Grenadines @ South+Georgia+and+the+South+Sandwich+Islands
+Saint Vincent and the Grenadines @ Saint+Vincent+and+the+Grenadines
+Saint Vincent and the Grenadines @ Democratic Republic of the Congo
+Saint Vincent and the Grenadines @ St. Vincent and the Grenadines
+Pacific island small states @ Small states
+Pacific island small states @ US Pacific Islands
+Saint Lucia @ St. Lucia
+Syrian Arab Republic @ Arab World
+Syrian Arab Republic @ United Arab Emirates
+Syrian Arab Republic @ United+Arab+Emirates
+Saint Kitts and Nevis @ St. Kitts and Nevis
+North America @ North+Korea
+North America @ South America
+British Virgin Islands @ U.S.+Virgin+Islands
+British Virgin Islands @ US Virgin Islands
+British Virgin Islands @ United States Virgin Islands
+British Virgin Islands @ Virgin Islands
+British Virgin Islands @ British Indian Ocean Territory
+Central Europe and the Baltics @ Northern Europe
+Central Europe and the Baltics @ South+Georgia+and+the+South+Sandwich+Islands
+Central Europe and the Baltics @ Saint+Vincent+and+the+Grenadines
+Central Europe and the Baltics @ Democratic Republic of the Congo
+Central Europe and the Baltics @ Western Europe
+Central Europe and the Baltics @ Southern Europe
+Central Europe and the Baltics @ St. Vincent and the Grenadines
+Central Europe and the Baltics @ Saint Vincent and the Grenadines
+Sint Maarten @ Curacao and Sint Maarten
+Sint Maarten @ Bonaire, Sint Eustatius and Saba
+French+Guiana @ French Polynesia
+French+Guiana @ French Southern Territories
+French+Guiana @ Guiana, French
+French+Guiana @ French+Southern+and+Antarctic+Lands
+French+Guiana @ French Territories: New Caledonia
+French+Guiana @ French Guiana
+French Territories: French Polynesia @ French Polynesia
+French Territories: French Polynesia @ French Southern Territories
+French Territories: French Polynesia @ Guiana, French
+French Territories: French Polynesia @ French+Southern+and+Antarctic+Lands
+French Territories: French Polynesia @ French Territories: New Caledonia
+French Territories: French Polynesia @ Polynesia
+French Territories: French Polynesia @ French Guiana
+French Territories: French Polynesia @ French+Guiana
+Cape+Verde @ Cabo Verde
+Puerto Rico @ Commonwealth+of+Puerto+Rico
+State of Palestine @ Palestine
+Central America @ South America
+Central America @ North America
+Bouvet+Island @ Jarvis+Island
+Bouvet+Island @ Heard+Island+and+McDonald+Islands
+Bouvet+Island @ Christmas Island
+Bouvet+Island @ Norfolk Island
+Collectivity+of+Saint+Martin @ Saint+Martin
+St. Martin (French part) @ Heavily indebted poor countries (HIPC)
+St. Martin (French part) @ French Polynesia
+St. Martin (French part) @ French Southern Territories
+St. Martin (French part) @ Guiana, French
+St. Martin (French part) @ French+Southern+and+Antarctic+Lands
+St. Martin (French part) @ Saint+Martin
+St. Martin (French part) @ French Territories: New Caledonia
+St. Martin (French part) @ Lao P.D.R.
+St. Martin (French part) @ SEFER + SSIO (**)
+St. Martin (French part) @ French Guiana
+St. Martin (French part) @ French+Guiana
+St. Martin (French part) @ French Territories: French Polynesia
+St. Martin (French part) @ Collectivity+of+Saint+Martin
+New Caledonia @ French Territories: New Caledonia
+New Caledonia @ Papua New Guinea
+New Caledonia @ New Zealand
+Macedonia @ TFYR Macedonia
+Macedonia @ FYR Macedonia
+South Sudan @ South+Sudan
+South Sudan @ Sudan
+French+Polynesia @ French Polynesia
+French+Polynesia @ French Southern Territories
+French+Polynesia @ Guiana, French
+French+Polynesia @ French+Southern+and+Antarctic+Lands
+French+Polynesia @ French Territories: New Caledonia
+French+Polynesia @ Polynesia
+French+Polynesia @ French Guiana
+French+Polynesia @ French+Guiana
+French+Polynesia @ French Territories: French Polynesia
+French+Polynesia @ St. Martin (French part)

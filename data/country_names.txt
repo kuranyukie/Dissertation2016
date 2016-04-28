@@ -10,7 +10,6 @@ Anguilla	Anguilla
 Antarctica	Antarctica
 Antigua and Barbuda	Antigua and Barbuda
 Antigua+and+Barbuda	Antigua and Barbuda
-Arab World	Arab World
 Argentina	Argentina
 Armenia	Armenia
 Armenia, Republic of	Armenia
@@ -146,12 +145,9 @@ Finland	Finland
 Fragile and conflict affected situations	Fragile and conflict affected situations
 France	France
 French Guiana	French Guiana
+French+Guiana	French Guiana
 French Polynesia	French Polynesia
-French Southern Territories	French Southern Territories
-French Territories: French Polynesia	French Territories: French Polynesia
-French Territories: New Caledonia	French Territories: New Caledonia
-French+Guiana	French+Guiana
-French+Polynesia	French+Polynesia
+French+Polynesia	French Polynesia
 French+Southern+and+Antarctic+Lands	French+Southern+and+Antarctic+Lands
 FYR Macedonia	FYR Macedonia
 Gabon	Gabon
