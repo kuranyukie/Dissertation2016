@@ -1,0 +1,24 @@
+数据格式：AAA@BBB	向量1	向量2	向量3……
+
+country area:
+数据：country area.txt
+增加向量数：2
+每个国家对应了自己的一个country area，最终应该形成两列向量，其中向量1是AAA的area，向量2是BBB的area
+
+landlocked:
+数据：landelocked.txt
+增加向量数：2
+step 1: 该txt中的所有国家，landlocked=1.
+step 2: 其他所有国家，landlocked=0.
+step 3: 每个国家对应了自己的landlocked的值，剩余操作方式同country area
+
+language:
+数据：language.txt
+增加向量数：1
+step 1: 生成一个N*N的矩阵，矩阵中的数值应该只有0和1，0代表AAA和BBB两个国家language不同，1代表相同。
+step 2: 拉平这个矩阵，转换为一个长度为N的1列向量。
+
+religion:
+数据：religion.txt
+增加向量数：1
+步骤同language
