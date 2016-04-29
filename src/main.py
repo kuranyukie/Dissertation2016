@@ -133,6 +133,38 @@ def task4() :
                     print country1, '@', country
     # print j(country_mapping.keys())
 
+def task5() :
+    mapping   = parse_argv(sys.argv)[0]
+    countries = ["albania", "angola", "argentina", "australia", "austria", "bangladesh", "belgium", "bhutan", "brazil", "bulgaria", "Burkina_Faso", "canada", "Cape_Verde", "chile", "china", "colombia", "costa-rica", "croatia", "czech-republic", "denmark", "Dominican_Republic", "ecuador", "egypt", "el-salvador", "estonia", "ethiopia", "Fiji", "finland", "france", "germany", "ghana", "greece", "guatemala", "Honduras", "hong-kong", "hungary", "iceland", "india", "indonesia", "iran", "iraq", "ireland", "israel", "italy", "jamaica", "japan", "jordan", "kenya", "kuwait", "latvia", "lebanon", "libya", "lithuania", "luxemburg", "malawi", "malaysia", "malta", "mexico", "morocco", "mozambique", "Namibia", "nepal", "netherlands", "new-zealand", "nigeria", "norway", "pakistan", "panama", "peru", "philippines", "poland", "portugal", "romania", "russia", "saudi-arabia", "senegal", "serbia", "sierra-leone", "singapore", "slovakia", "slovenia", "south-africa", "south-korea", "spain", "sri_lanka", "surinam", "sweden", "switzerland", "syria", "taiwan", "tanzania", "thailand", "trinidad", "turkey", "ukraine", "arab-emirates", "united-kingdom", "united-states", "uruguay", "venezuela", "vietnam", "zambia"]
+    countries = countries[ : int(mapping['n'])]
+    url       = 'https://geert-hofstede.com/%(country)s.html'
+    process   = lambda content : dict(re.findall('([a-z]+):(\d+)', re.sub('[ \t\n]', '', re.findall('var data = (\{[^}]+\})', content)[0])))
+    timing    = time()
+    tasks     = []
+
+    for country in countries :
+        tasks.append({
+            'url'     : lambda task : url % task['config'],
+            'process' : process,
+            'config'  : {
+                'country' : country,
+            }
+        })
+    flog = open('../log/hofstede.log', 'w')
+    cc = CircularCurler()
+    result_list = cc\
+        .set_max_attempt(int(mapping['ma']))\
+        .build_threads(int(mapping['t']))\
+        .set_timeout(float(mapping['to']))\
+        .add_tasks(tasks)\
+        .run(flog = flog, is_quiet = bool(int(mapping['q'])))\
+        .get_result_list()
+    trash_list = cc.get_trash_list()
+    fout = open('../data/hofstede.json', 'w')
+    safe_print(fout, j(result_list))
+    print '%.2fs' % (time() - timing), 'n = %(n)s t = %(t)s' % mapping
+    print len(trash_list), trash_list
+
 if __name__ == '__main__':
     # python main.py -n=5 -ma=3 -t=10 -q=0
-    task1()
+    task5()

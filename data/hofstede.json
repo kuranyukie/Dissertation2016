@@ -1,0 +1,1291 @@
+[
+    [
+        {
+            "country": "austria"
+        }, 
+        {
+            "idv": "55", 
+            "ind": "63", 
+            "lto": "60", 
+            "mas": "79", 
+            "pdi": "11", 
+            "uai": "70"
+        }
+    ], 
+    [
+        {
+            "country": "australia"
+        }, 
+        {
+            "idv": "90", 
+            "ind": "71", 
+            "lto": "21", 
+            "mas": "61", 
+            "pdi": "36", 
+            "uai": "51"
+        }
+    ], 
+    [
+        {
+            "country": "albania"
+        }, 
+        {
+            "idv": "20", 
+            "ind": "15", 
+            "lto": "61", 
+            "mas": "80", 
+            "pdi": "90", 
+            "uai": "70"
+        }
+    ], 
+    [
+        {
+            "country": "belgium"
+        }, 
+        {
+            "idv": "75", 
+            "ind": "57", 
+            "lto": "82", 
+            "mas": "54", 
+            "pdi": "65", 
+            "uai": "94"
+        }
+    ], 
+    [
+        {
+            "country": "bhutan"
+        }, 
+        {
+            "idv": "52", 
+            "mas": "32", 
+            "pdi": "94", 
+            "uai": "28"
+        }
+    ], 
+    [
+        {
+            "country": "argentina"
+        }, 
+        {
+            "idv": "46", 
+            "ind": "62", 
+            "lto": "20", 
+            "mas": "56", 
+            "pdi": "49", 
+            "uai": "86"
+        }
+    ], 
+    [
+        {
+            "country": "bangladesh"
+        }, 
+        {
+            "idv": "20", 
+            "ind": "20", 
+            "lto": "47", 
+            "mas": "55", 
+            "pdi": "80", 
+            "uai": "60"
+        }
+    ], 
+    [
+        {
+            "country": "bulgaria"
+        }, 
+        {
+            "idv": "30", 
+            "ind": "16", 
+            "lto": "69", 
+            "mas": "40", 
+            "pdi": "70", 
+            "uai": "85"
+        }
+    ], 
+    [
+        {
+            "country": "brazil"
+        }, 
+        {
+            "idv": "38", 
+            "ind": "59", 
+            "lto": "44", 
+            "mas": "49", 
+            "pdi": "69", 
+            "uai": "76"
+        }
+    ], 
+    [
+        {
+            "country": "canada"
+        }, 
+        {
+            "idv": "80", 
+            "ind": "68", 
+            "lto": "36", 
+            "mas": "52", 
+            "pdi": "39", 
+            "uai": "48"
+        }
+    ], 
+    [
+        {
+            "country": "Burkina_Faso"
+        }, 
+        {
+            "idv": "15", 
+            "ind": "18", 
+            "lto": "27", 
+            "mas": "50", 
+            "pdi": "70", 
+            "uai": "55"
+        }
+    ], 
+    [
+        {
+            "country": "angola"
+        }, 
+        {
+            "idv": "18", 
+            "ind": "83", 
+            "lto": "15", 
+            "mas": "20", 
+            "pdi": "83", 
+            "uai": "60"
+        }
+    ], 
+    [
+        {
+            "country": "Cape_Verde"
+        }, 
+        {
+            "idv": "20", 
+            "ind": "83", 
+            "lto": "12", 
+            "mas": "15", 
+            "pdi": "75", 
+            "uai": "40"
+        }
+    ], 
+    [
+        {
+            "country": "china"
+        }, 
+        {
+            "idv": "20", 
+            "ind": "24", 
+            "lto": "87", 
+            "mas": "66", 
+            "pdi": "80", 
+            "uai": "30"
+        }
+    ], 
+    [
+        {
+            "country": "chile"
+        }, 
+        {
+            "idv": "23", 
+            "ind": "68", 
+            "lto": "31", 
+            "mas": "28", 
+            "pdi": "63", 
+            "uai": "86"
+        }
+    ], 
+    [
+        {
+            "country": "colombia"
+        }, 
+        {
+            "idv": "13", 
+            "ind": "83", 
+            "lto": "13", 
+            "mas": "64", 
+            "pdi": "67", 
+            "uai": "80"
+        }
+    ], 
+    [
+        {
+            "country": "costa-rica"
+        }, 
+        {
+            "idv": "15", 
+            "mas": "21", 
+            "pdi": "35", 
+            "uai": "86"
+        }
+    ], 
+    [
+        {
+            "country": "croatia"
+        }, 
+        {
+            "idv": "33", 
+            "ind": "33", 
+            "lto": "58", 
+            "mas": "40", 
+            "pdi": "73", 
+            "uai": "80"
+        }
+    ], 
+    [
+        {
+            "country": "czech-republic"
+        }, 
+        {
+            "idv": "58", 
+            "ind": "29", 
+            "lto": "70", 
+            "mas": "57", 
+            "pdi": "57", 
+            "uai": "74"
+        }
+    ], 
+    [
+        {
+            "country": "Dominican_Republic"
+        }, 
+        {
+            "idv": "30", 
+            "ind": "54", 
+            "lto": "13", 
+            "mas": "65", 
+            "pdi": "65", 
+            "uai": "45"
+        }
+    ], 
+    [
+        {
+            "country": "ecuador"
+        }, 
+        {
+            "idv": "8", 
+            "mas": "63", 
+            "pdi": "78", 
+            "uai": "67"
+        }
+    ], 
+    [
+        {
+            "country": "ethiopia"
+        }, 
+        {
+            "idv": "20", 
+            "mas": "65", 
+            "pdi": "70", 
+            "uai": "55"
+        }
+    ], 
+    [
+        {
+            "country": "estonia"
+        }, 
+        {
+            "idv": "60", 
+            "ind": "16", 
+            "lto": "82", 
+            "mas": "30", 
+            "pdi": "40", 
+            "uai": "60"
+        }
+    ], 
+    [
+        {
+            "country": "el-salvador"
+        }, 
+        {
+            "idv": "19", 
+            "ind": "89", 
+            "lto": "20", 
+            "mas": "40", 
+            "pdi": "66", 
+            "uai": "94"
+        }
+    ], 
+    [
+        {
+            "country": "denmark"
+        }, 
+        {
+            "idv": "74", 
+            "ind": "70", 
+            "lto": "35", 
+            "mas": "16", 
+            "pdi": "18", 
+            "uai": "23"
+        }
+    ], 
+    [
+        {
+            "country": "Fiji"
+        }, 
+        {
+            "idv": "14", 
+            "mas": "46", 
+            "pdi": "78", 
+            "uai": "48"
+        }
+    ], 
+    [
+        {
+            "country": "finland"
+        }, 
+        {
+            "idv": "63", 
+            "ind": "57", 
+            "lto": "38", 
+            "mas": "26", 
+            "pdi": "33", 
+            "uai": "59"
+        }
+    ], 
+    [
+        {
+            "country": "france"
+        }, 
+        {
+            "idv": "71", 
+            "ind": "48", 
+            "lto": "63", 
+            "mas": "43", 
+            "pdi": "68", 
+            "uai": "86"
+        }
+    ], 
+    [
+        {
+            "country": "germany"
+        }, 
+        {
+            "idv": "67", 
+            "ind": "40", 
+            "lto": "83", 
+            "mas": "66", 
+            "pdi": "35", 
+            "uai": "65"
+        }
+    ], 
+    [
+        {
+            "country": "greece"
+        }, 
+        {
+            "idv": "35", 
+            "ind": "50", 
+            "lto": "45", 
+            "mas": "57", 
+            "pdi": "60", 
+            "uai": "100"
+        }
+    ], 
+    [
+        {
+            "country": "ghana"
+        }, 
+        {
+            "idv": "15", 
+            "ind": "72", 
+            "lto": "4", 
+            "mas": "40", 
+            "pdi": "80", 
+            "uai": "65"
+        }
+    ], 
+    [
+        {
+            "country": "Honduras"
+        }, 
+        {
+            "idv": "20", 
+            "mas": "40", 
+            "pdi": "80", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "egypt"
+        }, 
+        {
+            "idv": "25", 
+            "ind": "4", 
+            "lto": "7", 
+            "mas": "45", 
+            "pdi": "70", 
+            "uai": "80"
+        }
+    ], 
+    [
+        {
+            "country": "hong-kong"
+        }, 
+        {
+            "idv": "25", 
+            "ind": "17", 
+            "lto": "61", 
+            "mas": "57", 
+            "pdi": "68", 
+            "uai": "29"
+        }
+    ], 
+    [
+        {
+            "country": "iceland"
+        }, 
+        {
+            "idv": "60", 
+            "ind": "67", 
+            "lto": "28", 
+            "mas": "10", 
+            "pdi": "30", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "india"
+        }, 
+        {
+            "idv": "48", 
+            "ind": "26", 
+            "lto": "51", 
+            "mas": "56", 
+            "pdi": "77", 
+            "uai": "40"
+        }
+    ], 
+    [
+        {
+            "country": "indonesia"
+        }, 
+        {
+            "idv": "14", 
+            "ind": "38", 
+            "lto": "62", 
+            "mas": "46", 
+            "pdi": "78", 
+            "uai": "48"
+        }
+    ], 
+    [
+        {
+            "country": "iran"
+        }, 
+        {
+            "idv": "41", 
+            "ind": "40", 
+            "lto": "14", 
+            "mas": "43", 
+            "pdi": "58", 
+            "uai": "59"
+        }
+    ], 
+    [
+        {
+            "country": "hungary"
+        }, 
+        {
+            "idv": "80", 
+            "ind": "31", 
+            "lto": "58", 
+            "mas": "88", 
+            "pdi": "46", 
+            "uai": "82"
+        }
+    ], 
+    [
+        {
+            "country": "israel"
+        }, 
+        {
+            "idv": "54", 
+            "lto": "38", 
+            "mas": "47", 
+            "pdi": "13", 
+            "uai": "81"
+        }
+    ], 
+    [
+        {
+            "country": "ireland"
+        }, 
+        {
+            "idv": "70", 
+            "ind": "65", 
+            "lto": "24", 
+            "mas": "68", 
+            "pdi": "28", 
+            "uai": "35"
+        }
+    ], 
+    [
+        {
+            "country": "iraq"
+        }, 
+        {
+            "idv": "30", 
+            "ind": "17", 
+            "lto": "25", 
+            "mas": "70", 
+            "pdi": "95", 
+            "uai": "85"
+        }
+    ], 
+    [
+        {
+            "country": "jordan"
+        }, 
+        {
+            "idv": "30", 
+            "ind": "43", 
+            "lto": "16", 
+            "mas": "45", 
+            "pdi": "70", 
+            "uai": "65"
+        }
+    ], 
+    [
+        {
+            "country": "japan"
+        }, 
+        {
+            "idv": "46", 
+            "ind": "42", 
+            "lto": "88", 
+            "mas": "95", 
+            "pdi": "54", 
+            "uai": "92"
+        }
+    ], 
+    [
+        {
+            "country": "italy"
+        }, 
+        {
+            "idv": "76", 
+            "ind": "30", 
+            "lto": "61", 
+            "mas": "70", 
+            "pdi": "50", 
+            "uai": "75"
+        }
+    ], 
+    [
+        {
+            "country": "latvia"
+        }, 
+        {
+            "idv": "70", 
+            "ind": "13", 
+            "lto": "69", 
+            "mas": "9", 
+            "pdi": "44", 
+            "uai": "63"
+        }
+    ], 
+    [
+        {
+            "country": "kuwait"
+        }, 
+        {
+            "idv": "25", 
+            "mas": "40", 
+            "pdi": "90", 
+            "uai": "80"
+        }
+    ], 
+    [
+        {
+            "country": "lebanon"
+        }, 
+        {
+            "idv": "40", 
+            "ind": "25", 
+            "lto": "14", 
+            "mas": "65", 
+            "pdi": "75", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "jamaica"
+        }, 
+        {
+            "idv": "39", 
+            "mas": "68", 
+            "pdi": "45", 
+            "uai": "13"
+        }
+    ], 
+    [
+        {
+            "country": "lithuania"
+        }, 
+        {
+            "idv": "60", 
+            "ind": "16", 
+            "lto": "82", 
+            "mas": "19", 
+            "pdi": "42", 
+            "uai": "65"
+        }
+    ], 
+    [
+        {
+            "country": "luxemburg"
+        }, 
+        {
+            "idv": "60", 
+            "ind": "56", 
+            "lto": "64", 
+            "mas": "50", 
+            "pdi": "40", 
+            "uai": "70"
+        }
+    ], 
+    [
+        {
+            "country": "kenya"
+        }, 
+        {
+            "idv": "25", 
+            "mas": "60", 
+            "pdi": "70", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "libya"
+        }, 
+        {
+            "idv": "38", 
+            "ind": "34", 
+            "lto": "23", 
+            "mas": "52", 
+            "pdi": "80", 
+            "uai": "68"
+        }
+    ], 
+    [
+        {
+            "country": "malawi"
+        }, 
+        {
+            "idv": "30", 
+            "mas": "40", 
+            "pdi": "70", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "mexico"
+        }, 
+        {
+            "idv": "30", 
+            "ind": "97", 
+            "lto": "24", 
+            "mas": "69", 
+            "pdi": "81", 
+            "uai": "82"
+        }
+    ], 
+    [
+        {
+            "country": "malaysia"
+        }, 
+        {
+            "idv": "26", 
+            "ind": "57", 
+            "lto": "41", 
+            "mas": "50", 
+            "pdi": "100", 
+            "uai": "36"
+        }
+    ], 
+    [
+        {
+            "country": "Namibia"
+        }, 
+        {
+            "idv": "30", 
+            "lto": "35", 
+            "mas": "40", 
+            "pdi": "65", 
+            "uai": "45"
+        }
+    ], 
+    [
+        {
+            "country": "morocco"
+        }, 
+        {
+            "idv": "46", 
+            "ind": "25", 
+            "lto": "14", 
+            "mas": "53", 
+            "pdi": "70", 
+            "uai": "68"
+        }
+    ], 
+    [
+        {
+            "country": "mozambique"
+        }, 
+        {
+            "idv": "15", 
+            "ind": "80", 
+            "lto": "11", 
+            "mas": "38", 
+            "pdi": "85", 
+            "uai": "44"
+        }
+    ], 
+    [
+        {
+            "country": "nepal"
+        }, 
+        {
+            "idv": "30", 
+            "mas": "40", 
+            "pdi": "65", 
+            "uai": "40"
+        }
+    ], 
+    [
+        {
+            "country": "malta"
+        }, 
+        {
+            "idv": "59", 
+            "ind": "66", 
+            "lto": "47", 
+            "mas": "47", 
+            "pdi": "56", 
+            "uai": "96"
+        }
+    ], 
+    [
+        {
+            "country": "nigeria"
+        }, 
+        {
+            "idv": "30", 
+            "ind": "84", 
+            "lto": "13", 
+            "mas": "60", 
+            "pdi": "80", 
+            "uai": "55"
+        }
+    ], 
+    [
+        {
+            "country": "netherlands"
+        }, 
+        {
+            "idv": "80", 
+            "ind": "68", 
+            "lto": "67", 
+            "mas": "14", 
+            "pdi": "38", 
+            "uai": "53"
+        }
+    ], 
+    [
+        {
+            "country": "panama"
+        }, 
+        {
+            "idv": "11", 
+            "mas": "44", 
+            "pdi": "95", 
+            "uai": "86"
+        }
+    ], 
+    [
+        {
+            "country": "norway"
+        }, 
+        {
+            "idv": "69", 
+            "ind": "55", 
+            "lto": "35", 
+            "mas": "8", 
+            "pdi": "31", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "pakistan"
+        }, 
+        {
+            "idv": "14", 
+            "ind": "0", 
+            "lto": "50", 
+            "mas": "50", 
+            "pdi": "55", 
+            "uai": "70"
+        }
+    ], 
+    [
+        {
+            "country": "new-zealand"
+        }, 
+        {
+            "idv": "79", 
+            "ind": "75", 
+            "lto": "33", 
+            "mas": "58", 
+            "pdi": "22", 
+            "uai": "49"
+        }
+    ], 
+    [
+        {
+            "country": "portugal"
+        }, 
+        {
+            "idv": "27", 
+            "ind": "33", 
+            "lto": "28", 
+            "mas": "31", 
+            "pdi": "63", 
+            "uai": "99"
+        }
+    ], 
+    [
+        {
+            "country": "philippines"
+        }, 
+        {
+            "idv": "32", 
+            "ind": "42", 
+            "lto": "27", 
+            "mas": "64", 
+            "pdi": "94", 
+            "uai": "44"
+        }
+    ], 
+    [
+        {
+            "country": "romania"
+        }, 
+        {
+            "idv": "30", 
+            "ind": "20", 
+            "lto": "52", 
+            "mas": "42", 
+            "pdi": "90", 
+            "uai": "90"
+        }
+    ], 
+    [
+        {
+            "country": "peru"
+        }, 
+        {
+            "idv": "16", 
+            "ind": "46", 
+            "lto": "25", 
+            "mas": "42", 
+            "pdi": "64", 
+            "uai": "87"
+        }
+    ], 
+    [
+        {
+            "country": "saudi-arabia"
+        }, 
+        {
+            "idv": "25", 
+            "ind": "52", 
+            "lto": "36", 
+            "mas": "60", 
+            "pdi": "95", 
+            "uai": "80"
+        }
+    ], 
+    [
+        {
+            "country": "senegal"
+        }, 
+        {
+            "idv": "25", 
+            "lto": "25", 
+            "mas": "45", 
+            "pdi": "70", 
+            "uai": "55"
+        }
+    ], 
+    [
+        {
+            "country": "sierra-leone"
+        }, 
+        {
+            "idv": "20", 
+            "mas": "40", 
+            "pdi": "70", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "singapore"
+        }, 
+        {
+            "idv": "20", 
+            "ind": "46", 
+            "lto": "72", 
+            "mas": "48", 
+            "pdi": "74", 
+            "uai": "8"
+        }
+    ], 
+    [
+        {
+            "country": "south-africa"
+        }, 
+        {
+            "idv": "65", 
+            "ind": "63", 
+            "lto": "34", 
+            "mas": "63", 
+            "pdi": "49", 
+            "uai": "49"
+        }
+    ], 
+    [
+        {
+            "country": "slovakia"
+        }, 
+        {
+            "idv": "52", 
+            "ind": "28", 
+            "lto": "77", 
+            "mas": "100", 
+            "pdi": "100", 
+            "uai": "51"
+        }
+    ], 
+    [
+        {
+            "country": "slovenia"
+        }, 
+        {
+            "idv": "27", 
+            "ind": "48", 
+            "lto": "49", 
+            "mas": "19", 
+            "pdi": "71", 
+            "uai": "88"
+        }
+    ], 
+    [
+        {
+            "country": "sri_lanka"
+        }, 
+        {
+            "idv": "35", 
+            "lto": "45", 
+            "mas": "10", 
+            "pdi": "80", 
+            "uai": "45"
+        }
+    ], 
+    [
+        {
+            "country": "serbia"
+        }, 
+        {
+            "idv": "25", 
+            "ind": "28", 
+            "lto": "52", 
+            "mas": "43", 
+            "pdi": "86", 
+            "uai": "92"
+        }
+    ], 
+    [
+        {
+            "country": "south-korea"
+        }, 
+        {
+            "idv": "18", 
+            "ind": "29", 
+            "lto": "100", 
+            "mas": "39", 
+            "pdi": "60", 
+            "uai": "85"
+        }
+    ], 
+    [
+        {
+            "country": "switzerland"
+        }, 
+        {
+            "idv": "68", 
+            "ind": "66", 
+            "lto": "74", 
+            "mas": "70", 
+            "pdi": "34", 
+            "uai": "58"
+        }
+    ], 
+    [
+        {
+            "country": "taiwan"
+        }, 
+        {
+            "idv": "17", 
+            "ind": "49", 
+            "lto": "93", 
+            "mas": "45", 
+            "pdi": "58", 
+            "uai": "69"
+        }
+    ], 
+    [
+        {
+            "country": "sweden"
+        }, 
+        {
+            "idv": "71", 
+            "ind": "78", 
+            "lto": "53", 
+            "mas": "5", 
+            "pdi": "31", 
+            "uai": "29"
+        }
+    ], 
+    [
+        {
+            "country": "syria"
+        }, 
+        {
+            "idv": "35", 
+            "lto": "30", 
+            "mas": "52", 
+            "pdi": "80", 
+            "uai": "60"
+        }
+    ], 
+    [
+        {
+            "country": "tanzania"
+        }, 
+        {
+            "idv": "25", 
+            "ind": "38", 
+            "lto": "34", 
+            "mas": "40", 
+            "pdi": "70", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "surinam"
+        }, 
+        {
+            "idv": "47", 
+            "mas": "37", 
+            "pdi": "85", 
+            "uai": "92"
+        }
+    ], 
+    [
+        {
+            "country": "turkey"
+        }, 
+        {
+            "idv": "37", 
+            "ind": "49", 
+            "lto": "46", 
+            "mas": "45", 
+            "pdi": "66", 
+            "uai": "85"
+        }
+    ], 
+    [
+        {
+            "country": "thailand"
+        }, 
+        {
+            "idv": "20", 
+            "ind": "45", 
+            "lto": "32", 
+            "mas": "34", 
+            "pdi": "64", 
+            "uai": "64"
+        }
+    ], 
+    [
+        {
+            "country": "trinidad"
+        }, 
+        {
+            "idv": "16", 
+            "ind": "80", 
+            "lto": "13", 
+            "mas": "58", 
+            "pdi": "47", 
+            "uai": "55"
+        }
+    ], 
+    [
+        {
+            "country": "ukraine"
+        }, 
+        {
+            "idv": "25", 
+            "ind": "18", 
+            "lto": "55", 
+            "mas": "27", 
+            "pdi": "92", 
+            "uai": "95"
+        }
+    ], 
+    [
+        {
+            "country": "uruguay"
+        }, 
+        {
+            "idv": "36", 
+            "ind": "53", 
+            "lto": "26", 
+            "mas": "38", 
+            "pdi": "61", 
+            "uai": "99"
+        }
+    ], 
+    [
+        {
+            "country": "arab-emirates"
+        }, 
+        {
+            "idv": "25", 
+            "mas": "50", 
+            "pdi": "90", 
+            "uai": "80"
+        }
+    ], 
+    [
+        {
+            "country": "vietnam"
+        }, 
+        {
+            "idv": "20", 
+            "ind": "35", 
+            "lto": "57", 
+            "mas": "40", 
+            "pdi": "70", 
+            "uai": "30"
+        }
+    ], 
+    [
+        {
+            "country": "poland"
+        }, 
+        {
+            "idv": "60", 
+            "ind": "29", 
+            "lto": "38", 
+            "mas": "64", 
+            "pdi": "68", 
+            "uai": "93"
+        }
+    ], 
+    [
+        {
+            "country": "united-kingdom"
+        }, 
+        {
+            "idv": "89", 
+            "ind": "69", 
+            "lto": "51", 
+            "mas": "66", 
+            "pdi": "35", 
+            "uai": "35"
+        }
+    ], 
+    [
+        {
+            "country": "guatemala"
+        }, 
+        {
+            "idv": "6", 
+            "mas": "37", 
+            "pdi": "95", 
+            "uai": "99"
+        }
+    ], 
+    [
+        {
+            "country": "venezuela"
+        }, 
+        {
+            "idv": "12", 
+            "ind": "100", 
+            "lto": "16", 
+            "mas": "73", 
+            "pdi": "81", 
+            "uai": "76"
+        }
+    ], 
+    [
+        {
+            "country": "russia"
+        }, 
+        {
+            "idv": "39", 
+            "ind": "20", 
+            "lto": "81", 
+            "mas": "36", 
+            "pdi": "93", 
+            "uai": "95"
+        }
+    ], 
+    [
+        {
+            "country": "zambia"
+        }, 
+        {
+            "idv": "35", 
+            "ind": "42", 
+            "lto": "30", 
+            "mas": "40", 
+            "pdi": "60", 
+            "uai": "50"
+        }
+    ], 
+    [
+        {
+            "country": "united-states"
+        }, 
+        {
+            "idv": "91", 
+            "ind": "68", 
+            "lto": "26", 
+            "mas": "62", 
+            "pdi": "40", 
+            "uai": "46"
+        }
+    ], 
+    [
+        {
+            "country": "spain"
+        }, 
+        {
+            "idv": "51", 
+            "ind": "44", 
+            "lto": "48", 
+            "mas": "42", 
+            "pdi": "57", 
+            "uai": "86"
+        }
+    ]
+]
