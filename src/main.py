@@ -82,7 +82,7 @@ def task3() :
         'Y16' : ('M', 0),
         'Y17' : ('M', 0),
     }
-    data = dict([(variable, load_txt(open('../data/%s.txt' % variable), primary_key = 'COUNTRY', cast = cast)) \
+    data = dict([(variable, load_txt(open('../data/X&Y/%s.txt' % variable), primary_key = 'COUNTRY', cast = cast)) \
         for variable in variables.keys()])
     result = {}
     country_mapping = {}
@@ -165,6 +165,24 @@ def task5() :
     print '%.2fs' % (time() - timing), 'n = %(n)s t = %(t)s' % mapping
     print len(trash_list), trash_list
 
+def task6() :
+    data = load_json(open('../data/hofstede.json'))
+    fields = ['idv', 'ind', 'lto', 'mas', 'pdi', 'uai']
+    result = {}
+    for index1 in range(0, len(data)) :
+        for index2 in range(0, len(data)) :
+            if index1 == index2 : continue
+            index = '%s@%s' % (data[index1][0]['country'], data[index2][0]['country'])
+            result[index] = {}
+            for field in fields :
+                if not data[index1][1].has_key(field) or not data[index2][1].has_key(field) :
+                    result[index][field] = '1.00'
+                else :
+                    _ = 1.0 * int(data[index1][1][field]) / int(data[index2][1][field])
+                    result[index][field] = '%.2f' % _
+    # print j(result)
+    print len(result)
+
 if __name__ == '__main__':
     # python main.py -n=5 -ma=3 -t=10 -q=0
-    task5()
+    task6()
