@@ -57,14 +57,20 @@ def task3() :
     mapping = parse_argv(sys.argv)[0]
     cast = [lambda _ : _] + [lambda _ : '[NONE]' if _ == '' else str(float(re.sub('[^0-9 \-\+\.]', '0', _)))] * 300
     variables = { 
-        'X1' : ('M', 0),
-        'X2' : ('V', 1),
-        'X3' : ('V', 2),
-        'X4' : ('V', 1),
-        'X5' : ('V', 2),
-        'X6' : ('M', 0),
-        'X7' : ('M', 0),
-        'X8' : ('M', 0),
+        'X01' : ('M', 0),
+        'X02' : ('V', 1),
+        'X03' : ('V', 2),
+        'X04' : ('V', 1),
+        'X05' : ('V', 2),
+        'X06' : ('M', 0),
+        'X07' : ('M', 0),
+        'X08' : ('M', 0),
+        'X09' : ('M', 0),
+        'X10' : ('M', 0),
+        'X11' : ('M', 0),
+        'X12' : ('M', 0),
+        'X13' : ('M', 0),
+        'X14' : ('M', 0),
         'Y02' : ('M', 0),
         'Y03' : ('M', 0),
         'Y04' : ('M', 0),
@@ -84,6 +90,8 @@ def task3() :
     }
     data = dict([(variable, load_txt(open('../data/X&Y/%s.txt' % variable), primary_key = 'COUNTRY', cast = cast)) \
         for variable in variables.keys()])
+    print data['X02']
+    exit()
     result = {}
     country_mapping = dict(load_txt(open('../data/country_names.txt'), is_matrix = True))
     for variable, datum in data.items() :
@@ -125,7 +133,7 @@ def task3() :
                         # print result[key]['COUNTRY2'], result[key]['RAW_COUNTRY2'], variable
                         continue
                     result[key][variable] = datum[country]['X']
-    xs = ['X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'X7', 'X8']
+    xs = ['X01', 'X02', 'X03', 'X04', 'X05', 'X06', 'X07', 'X08', 'X09', 'X10', 'X11', 'X12', 'X13', 'X14']
     ys = ['Y02', 'Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'Y16', 'Y17']
     for key in result.keys() :
         x_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, xs))
@@ -184,22 +192,41 @@ def task5() :
     print len(trash_list), trash_list
 
 def task6() :
-    data = load_json(open('../data/hofstede.json'))
-    fields = ['idv', 'ind', 'lto', 'mas', 'pdi', 'uai']
-    result = {}
-    for index1 in range(0, len(data)) :
-        for index2 in range(0, len(data)) :
-            if index1 == index2 : continue
-            index = '%s@%s' % (data[index1][0]['country'], data[index2][0]['country'])
-            result[index] = {}
-            for field in fields :
+    data = load_json(open('../data/Xs/hofstede.json'))
+    country_mapping = dict(load_txt(open('../data/country_names.txt'), is_matrix = True))
+    fields = {
+        'idv' : 'X09',
+        'ind' : 'X10',
+        'lto' : 'X11',
+        'mas' : 'X12',
+        'pdi' : 'X13',
+        'uai' : 'X14'}
+    for field in fields.keys() :
+        result = {}
+        for index1 in range(0, len(data)) :
+            # country1 = country_mapping.get(data[index1][0]['country'])
+            country1 = data[index1][0]['country']
+            if country1 is None :
+                print data[index1][0]['country']
+                continue
+            result[country1] = { 'COUNTRY' : country1 }
+            for index2 in range(0, len(data)) :
+                # if index1 == index2 : continue
+                # country2 = country_mapping.get(data[index2][0]['country'])
+                country2 = data[index2][0]['country']
+                if country2 is None :
+                    print data[index2][0]['country']
+                    continue
+                index = '%s@%s' % (country1, country2)
                 if not data[index1][1].has_key(field) or not data[index2][1].has_key(field) :
-                    result[index][field] = '1.00'
+                    result[country1][country2] = '1.00'
                 else :
                     _ = 1.0 * int(data[index1][1][field]) / int(data[index2][1][field])
-                    result[index][field] = '%.2f' % _
-    # print j(result)
-    print len(result)
+                    result[country1][country2] = '%.2f' % _
+        dump_txt(open('../data/X&Y/%s.txt' % fields[field], 'w')\
+            , sorted(result.values(), key = lambda datum : datum['COUNTRY'])\
+            , fields = ['COUNTRY'] + sorted([datum['COUNTRY'] for datum in result.values()])\
+            , default = '[NONE]')
 
 if __name__ == '__main__':
     # python main.py -n=5 -ma=3 -t=10 -q=0
