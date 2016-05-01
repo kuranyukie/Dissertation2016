@@ -256,6 +256,7 @@ Republic of Korea	North Korea
 Dem. People's Rep. Korea	North Korea
 Dem. People's Republic of Korea	North Korea
 North+Korea	North Korea
+Korea, North	North Korea
 Kosovo	Kosovo
 Kosova+(Kosovo)	Kosovo
 Kosovo, Republic of	Kosovo
@@ -439,8 +440,10 @@ South America	South America
 South Asia	South Asia
 South+Georgia+and+the+South+Sandwich+Islands	South Georgia and South Sandwich Islands
 South Georgia and South Sandwich Islands	South Georgia and South Sandwich Islands
-South+Korea	South Korea
 Korea	South Korea
+South+Korea	South Korea
+South Korea	South Korea
+Korea, South	South Korea
 South Sudan	South Sudan
 South+Sudan	South Sudan
 south-sudan	South Sudan
@@ -552,6 +555,7 @@ Wallis and Futuna Islands	Wallis and Futuna
 Wallis+and+Futuna	Wallis and Futuna
 West Bank and Gaza	West Bank and Gaza
 West Bank	West Bank and Gaza
+Gaza Strip	West Bank and Gaza
 Western Africa	Western Africa
 Western Asia	Western Asia
 Western Europe	Western Europe
