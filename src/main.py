@@ -55,7 +55,7 @@ def task2() :
 
 def task3() :
     mapping = parse_argv(sys.argv)[0]
-    cast = [lambda _ : _] + [lambda _ : '[NONE]' if _ == '' else str(float(re.sub('[^0-9 \-\+\.]', '0', _)))] * 300
+    cast = [lambda _ : _] + [lambda _ : '[NONE]' if _ == '' else '%.2f' % float(re.sub('[^0-9 \-\+\.]', '0', _))] * 300
     smart_log = lambda x : '0.00' if float(x) == 0 else '%.2f' % log(float(x))
     variables = { 
         'X01' : ('M', '0', 1, 'Distance'),
@@ -76,6 +76,8 @@ def task3() :
         'X16' : ('V', '2', 1, 'Area2'),
         'X17' : ('M', '0', 0, 'Language'),
         'X18' : ('M', '0', 0, 'Religion'),
+        'X19' : ('V', '1', 0, 'Locked1'),
+        'X20' : ('V', '2', 0, 'Locked2'),
         'Y02' : ('M', '0', 0, 'Y02'),
         'Y03' : ('M', '0', 0, 'Y03'),
         'Y04' : ('M', '0', 0, 'Y04'),
@@ -137,7 +139,7 @@ def task3() :
                 result[key][field] = datum[country]['X']
                 if variables[variable][2] == 1 :
                     result[key][field] = smart_log(result[key][field])
-    xs = ['X01', 'X02', 'X03', 'X04', 'X05', 'X06', 'X07', 'X08', 'X09', 'X10', 'X11', 'X12', 'X13', 'X14', 'X15', 'X16', 'X17', 'X18']
+    xs = ['X01', 'X02', 'X03', 'X04', 'X05', 'X06', 'X07', 'X08', 'X09', 'X10', 'X11', 'X12', 'X13', 'X14', 'X15', 'X16', 'X17', 'X18', 'X19', 'X20']
     ys = ['Y02', 'Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'Y16', 'Y17']
     for key in result.keys() :
         x_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, [ variables[x][3] for x in xs ]))
