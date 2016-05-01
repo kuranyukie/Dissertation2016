@@ -56,41 +56,42 @@ def task2() :
 def task3() :
     mapping = parse_argv(sys.argv)[0]
     cast = [lambda _ : _] + [lambda _ : '[NONE]' if _ == '' else str(float(re.sub('[^0-9 \-\+\.]', '0', _)))] * 300
+    smart_log = lambda x : '0.00' if float(x) == 0 else '%.2f' % log(float(x))
     variables = { 
-        'X01' : ('M', 0, 'Distance'),
-        'X02' : ('V', 1, 'GDP1'),
-        'X03' : ('V', 2, 'GDP2'),
-        'X04' : ('V', 1, 'Pop1'),
-        'X05' : ('V', 2, 'Pop2'),
-        'X06' : ('M', 0, 'Currency'),
-        'X07' : ('M', 0, 'Region'),
-        'X08' : ('M', 0, 'Income'),
-        'X09' : ('M', 0, 'idv'),
-        'X10' : ('M', 0, 'ind'),
-        'X11' : ('M', 0, 'lto'),
-        'X12' : ('M', 0, 'mas'),
-        'X13' : ('M', 0, 'pdi'),
-        'X14' : ('M', 0, 'uai'),
-        'X15' : ('V', 1, 'Area1'),
-        'X16' : ('V', 2, 'Area2'),
-        'X17' : ('M', 0, 'Language'),
-        'X18' : ('M', 0, 'Religion'),
-        'Y02' : ('M', 0, 'Y02'),
-        'Y03' : ('M', 0, 'Y03'),
-        'Y04' : ('M', 0, 'Y04'),
-        'Y05' : ('M', 0, 'Y05'),
-        'Y06' : ('M', 0, 'Y06'),
-        'Y07' : ('M', 0, 'Y07'),
-        'Y08' : ('M', 0, 'Y08'),
-        'Y09' : ('M', 0, 'Y09'),
-        'Y10' : ('M', 0, 'Y10'),
-        'Y11' : ('M', 0, 'Y11'),
-        'Y12' : ('M', 0, 'Y12'),
-        'Y13' : ('M', 0, 'Y13'),
-        'Y14' : ('M', 0, 'Y14'),
-        'Y15' : ('M', 0, 'Y15'),
-        'Y16' : ('M', 0, 'Y16'),
-        'Y17' : ('M', 0, 'Y17'),
+        'X01' : ('M', '0', 1, 'Distance'),
+        'X02' : ('V', '1', 1, 'GDP1'),
+        'X03' : ('V', '2', 1, 'GDP2'),
+        'X04' : ('V', '1', 1, 'Pop1'),
+        'X05' : ('V', '2', 1, 'Pop2'),
+        'X06' : ('M', '0', 0, 'Currency'),
+        'X07' : ('M', '0', 0, 'Region'),
+        'X08' : ('M', '0', 0, 'Income'),
+        'X09' : ('M', '0', 0, 'idv'),
+        'X10' : ('M', '0', 0, 'ind'),
+        'X11' : ('M', '0', 0, 'lto'),
+        'X12' : ('M', '0', 0, 'mas'),
+        'X13' : ('M', '0', 0, 'pdi'),
+        'X14' : ('M', '0', 0, 'uai'),
+        'X15' : ('V', '1', 1, 'Area1'),
+        'X16' : ('V', '2', 1, 'Area2'),
+        'X17' : ('M', '0', 0, 'Language'),
+        'X18' : ('M', '0', 0, 'Religion'),
+        'Y02' : ('M', '0', 0, 'Y02'),
+        'Y03' : ('M', '0', 0, 'Y03'),
+        'Y04' : ('M', '0', 0, 'Y04'),
+        'Y05' : ('M', '0', 0, 'Y05'),
+        'Y06' : ('M', '0', 0, 'Y06'),
+        'Y07' : ('M', '0', 0, 'Y07'),
+        'Y08' : ('M', '0', 0, 'Y08'),
+        'Y09' : ('M', '0', 0, 'Y09'),
+        'Y10' : ('M', '0', 0, 'Y10'),
+        'Y11' : ('M', '0', 0, 'Y11'),
+        'Y12' : ('M', '0', 0, 'Y12'),
+        'Y13' : ('M', '0', 0, 'Y13'),
+        'Y14' : ('M', '0', 0, 'Y14'),
+        'Y15' : ('M', '0', 0, 'Y15'),
+        'Y16' : ('M', '0', 0, 'Y16'),
+        'Y17' : ('M', '0', 0, 'Y17'),
     }
     data = dict([(variable, load_txt(open('../data/X&Y/%s.txt' % variable), primary_key = 'COUNTRY', cast = cast)) \
         for variable in variables.keys()])
@@ -117,41 +118,39 @@ def task3() :
                             'RAW_COUNTRY1' : raw_country1,
                             'RAW_COUNTRY2' : raw_country2,
                         }
-                    result[key][variables[variable][2]] = datum[raw_country1][raw_country2]
+                    field = variables[variable][3]
+                    result[key][field] = datum[raw_country1][raw_country2]
+                    if variables[variable][2] == 1 :
+                        result[key][field] = smart_log(result[key][field])
     for variable, datum in data.items() :
         if variables[variable][0] == 'V' :
             for key in result.keys() :
-                if variables[variable][1] == 1 :
-                    if datum.get(result[key]['COUNTRY1']) is not None :
-                        country = result[key]['COUNTRY1']
-                    elif datum.get(result[key]['RAW_COUNTRY1']) is not None :
-                        country = result[key]['RAW_COUNTRY1']
-                    else :
-                        # print result[key]['COUNTRY1'], result[key]['RAW_COUNTRY1'], variable
-                        continue
-                    result[key][variables[variable][2]] = datum[country]['X']
-                if variables[variable][1] == 2 :
-                    if datum.get(result[key]['COUNTRY2']) is not None :
-                        country = result[key]['COUNTRY2']
-                    elif datum.get(result[key]['RAW_COUNTRY2']) is not None :
-                        country = result[key]['RAW_COUNTRY2']
-                    else :
-                        # print result[key]['COUNTRY2'], result[key]['RAW_COUNTRY2'], variable
-                        continue
-                    result[key][variables[variable][2]] = datum[country]['X']
+                _ = variables[variable][1]
+                if datum.get(result[key]['COUNTRY' + _]) is not None :
+                    country = result[key]['COUNTRY' + _]
+                elif datum.get(result[key]['RAW_COUNTRY' + _]) is not None :
+                    country = result[key]['RAW_COUNTRY' + _]
+                else :
+                    # print result[key]['COUNTRY' + _], result[key]['RAW_COUNTRY' + _], variable
+                    continue
+                field = variables[variable][3]
+                result[key][field] = datum[country]['X']
+                if variables[variable][2] == 1 :
+                    result[key][field] = smart_log(result[key][field])
     xs = ['X01', 'X02', 'X03', 'X04', 'X05', 'X06', 'X07', 'X08', 'X09', 'X10', 'X11', 'X12', 'X13', 'X14', 'X15', 'X16', 'X17', 'X18']
     ys = ['Y02', 'Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'Y16', 'Y17']
     for key in result.keys() :
-        x_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, [ variables[x][2] for x in xs ]))
-        y_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, [ variables[y][2] for y in ys ]))
+        x_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, [ variables[x][3] for x in xs ]))
+        y_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, [ variables[y][3] for y in ys ]))
         if len(x_values) < len(xs) or len(y_values) == 0 : result.pop(key)
         else :
             y_values = map(float, y_values)
             result[key]['Asset'] = str(calc_mean(y_values))
+            result[key]['Asset'] = smart_log(result[key]['Asset'])
     result = result.values()
     dump_txt(open('../data/data.txt', 'w')\
         , sorted(result, key = lambda datum : datum['COUNTRY'])\
-        , fields = ['COUNTRY'] + ['Asset'] + [ variables[x][2] for x in xs ]\
+        , fields = ['COUNTRY'] + ['Asset'] + [ variables[x][3] for x in xs ]\
         , default = '[NONE]')
 
 def task4() :
