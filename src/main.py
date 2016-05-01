@@ -204,16 +204,16 @@ def task6() :
     for field in fields.keys() :
         result = {}
         for index1 in range(0, len(data)) :
-            # country1 = country_mapping.get(data[index1][0]['country'])
-            country1 = data[index1][0]['country']
+            country1 = country_mapping.get(data[index1][0]['country'])
+            # country1 = data[index1][0]['country']
             if country1 is None :
                 print data[index1][0]['country']
                 continue
             result[country1] = { 'COUNTRY' : country1 }
             for index2 in range(0, len(data)) :
                 # if index1 == index2 : continue
-                # country2 = country_mapping.get(data[index2][0]['country'])
-                country2 = data[index2][0]['country']
+                country2 = country_mapping.get(data[index2][0]['country'])
+                # country2 = data[index2][0]['country']
                 if country2 is None :
                     print data[index2][0]['country']
                     continue
@@ -230,4 +230,4 @@ def task6() :
 
 if __name__ == '__main__':
     # python main.py -n=5 -ma=3 -t=10 -q=0
-    task3()
+    task6()

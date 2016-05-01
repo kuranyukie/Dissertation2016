@@ -1,21 +1,26 @@
 Afghanistan	Afghanistan
 Afghanistan, Islamic Republic of	Afghanistan
 Albania	Albania
+albania	Albania
 Algeria	Algeria
 American Samoa	American Samoa
 American+Samoa	American Samoa
 Andorra	Andorra
 Angola	Angola
+angola	Angola
 Anguilla	Anguilla
 Antarctica	Antarctica
 Antigua and Barbuda	Antigua and Barbuda
 Antigua+and+Barbuda	Antigua and Barbuda
 Argentina	Argentina
+argentina	Argentina
 Armenia	Armenia
 Armenia, Republic of	Armenia
 Aruba	Aruba
 Australia	Australia
+australia	Australia
 Austria	Austria
+austria	Austria
 Azerbaijan	Azerbaijan
 Azerbaijan, Republic of	Azerbaijan
 Bahamas	Bahamas
@@ -23,13 +28,16 @@ Bahamas, The	Bahamas
 Bahrain	Bahrain
 Bahrain, Kingdom of	Bahrain
 Bangladesh	Bangladesh
+bangladesh	Bangladesh
 Barbados	Barbados
 Belarus	Belarus
 Belgium	Belgium
+belgium	Belgium
 Belize	Belize
 Benin	Benin
 Bermuda	Bermuda
 Bhutan	Bhutan
+bhutan	Bhutan
 Bolivia	Bolivia
 Bolivia (Plurinational State of)	Bolivia
 Bonaire, Sint Eustatius and Saba	Bonaire, Sint Eustatius and Saba
@@ -39,6 +47,7 @@ Bosnia+and+Herzegovina	Bosnia and Herzegovina
 Botswana	Botswana
 Bouvet+Island	Bouvet+Island
 Brazil	Brazil
+brazil	Brazil
 British Indian Ocean Territory	British Indian Ocean Territory
 British+Indian+Ocean+Territory	British Indian Ocean Territory
 British Virgin Islands	British Virgin Islands
@@ -47,15 +56,19 @@ Brunei Darussalam	Brunei Darussalam
 Brunei	Brunei Darussalam
 Brunei+Darussalam	Brunei Darussalam
 Bulgaria	Bulgaria
+bulgaria	Bulgaria
 Burkina Faso	Burkina Faso
 Burkina+Faso	Burkina Faso
+Burkina_Faso	Burkina Faso
 Burma	Burma
 Burundi	Burundi
 Cabo Verde	Cabo Verde
 Cambodia	Cambodia
 Cameroon	Cameroon
 Canada	Canada
+canada	Canada
 Cape+Verde	Cape+Verde
+Cape_Verde	Cape+Verde
 Caribbean	Caribbean
 Caribbean Netherlands	Caribbean Netherlands
 Caribbean+Netherlands	Caribbean Netherlands
@@ -69,13 +82,16 @@ Central Europe and the Baltics	Central Europe and the Baltics
 Chad	Chad
 Channel Islands	Channel Islands
 Chile	Chile
+chile	Chile
 China	China
+china	China
 China, P.R.: Mainland	China
 China, Hong Kong SAR	China, Hong Kong SAR
 China, P.R.: Hong Kong	China, Hong Kong SAR
 Hong Kong SAR	China, Hong Kong SAR
 Hong Kong SAR, China	China, Hong Kong SAR
 Hong+Kong	China, Hong Kong SAR
+hong-kong	China, Hong Kong SAR
 China, Macao SAR	China, Macao SAR
 China, P.R.: Macao	China, Macao SAR
 Macao SAR, China	China, Macao SAR
@@ -86,6 +102,7 @@ Cocos (Keeling) Islands	Cocos (Keeling) Islands
 Cocos+(Keeling)+Islands	Cocos (Keeling) Islands
 Collectivity+of+Saint+Martin	Collectivity+of+Saint+Martin
 Colombia	Colombia
+colombia	Colombia
 Commonwealth+of+Puerto+Rico	Commonwealth+of+Puerto+Rico
 Commonwealth+of+The+Bahamas	Commonwealth+of+The+Bahamas
 Comoros	Comoros
@@ -98,10 +115,12 @@ Cook Islands	Cook Islands
 Cook+Islands	Cook Islands
 Costa Rica	Costa Rica
 Costa+Rica	Costa Rica
+costa-rica	Costa Rica
 Cote d'Ivoire	Cote d'Ivoire
 Cote+d'Ivoire	Cote d'Ivoire
 Côte d'Ivoire	Cote d'Ivoire
 Croatia	Croatia
+croatia	Croatia
 Cuba	Cuba
 Curacao	Curacao
 Curaçao	Curacao
@@ -110,26 +129,34 @@ Curacao & St. Maarten	Curacao and Sint Maarten
 Cyprus	Cyprus
 Czech Republic	Czech Republic
 Czech+Republic	Czech Republic
+czech-republic	Czech Republic
 Dem. People's Rep. Korea	Dem. People's Rep. Korea
 Dem. People's Republic of Korea	Dem. People's Rep. Korea
 Democratic Republic of the Congo	Democratic Republic of the Congo
 Dem. Rep. Congo	Democratic Republic of the Congo
 Democratic+Republic+of+the+Congo	Democratic Republic of the Congo
 Denmark	Denmark
+denmark	Denmark
 Djibouti	Djibouti
 Dominica	Dominica
 Dominican Republic	Dominican Republic
 Dominican+Republic	Dominican Republic
+Dominican_Republic	Dominican Republic
 East+Timor	East+Timor
 Ecuador	Ecuador
+ecuador	Ecuador
 Egypt	Egypt
+egypt	Egypt
 El Salvador	El Salvador
 El+Salvador	El Salvador
+el-salvador	El Salvador
 Equatorial Guinea	Equatorial Guinea
 Equatorial+Guinea	Equatorial Guinea
 Eritrea	Eritrea
 Estonia	Estonia
+estonia	Estonia
 Ethiopia	Ethiopia
+ethiopia	Ethiopia
 Euro area	Euro area
 European Union	European Union
 Faeroe Islands	Faeroe Islands
@@ -142,8 +169,10 @@ Faroe+Islands	Faroe Islands
 Federated+States+of+Micronesia	Federated+States+of+Micronesia
 Fiji	Fiji
 Finland	Finland
+finland	Finland
 Fragile and conflict affected situations	Fragile and conflict affected situations
 France	France
+france	France
 French Guiana	French Guiana
 French+Guiana	French Guiana
 French Polynesia	French Polynesia
@@ -155,14 +184,18 @@ Gambia	Gambia
 Gambia, The	Gambia
 Georgia	Georgia
 Germany	Germany
+germany	Germany
 Ghana	Ghana
+ghana	Ghana
 Gibraltar	Gibraltar
 Greece	Greece
+greece	Greece
 Greenland	Greenland
 Grenada	Grenada
 Guadeloupe	Guadeloupe
 Guam	Guam
 Guatemala	Guatemala
+guatemala	Guatemala
 Guernsey	Guernsey
 Guiana, French	Guiana, French
 Guinea	Guinea
@@ -174,28 +207,41 @@ Heavily indebted poor countries (HIPC)	Heavily indebted poor countries (HIPC)
 Holy See	Holy See
 Honduras	Honduras
 Hungary	Hungary
+hungary	Hungary
 Iceland	Iceland
+iceland	Iceland
 India	India
+india	India
 Indonesia	Indonesia
+indonesia	Indonesia
 Republic+of+Indonesia	Indonesia
 Iran	Iran
+iran	Iran
 Iran (Islamic Republic of)	Iran
 Iran, Islamic Republic of	Iran
 Islamic Republic of Iran	Iran
 Iraq	Iraq
+iraq	Iraq
 Ireland	Ireland
+ireland	Ireland
 Isle of Man	Isle of Man
 Isle+of+Man	Isle of Man
 Israel	Israel
+israel	Israel
 Italy	Italy
+italy	Italy
 Jamaica	Jamaica
+jamaica	Jamaica
 Jan+Mayen	Jan+Mayen
 Japan	Japan
+japan	Japan
 Jarvis+Island	Jarvis+Island
 Jersey	Jersey
 Jordan	Jordan
+jordan	Jordan
 Kazakhstan	Kazakhstan
 Kenya	Kenya
+kenya	Kenya
 Kiribati	Kiribati
 Korea	Korea
 Korea, Democratic People's Rep. of	Korea
@@ -206,6 +252,7 @@ Kosova+(Kosovo)	Kosovo
 Kosovo, Republic of	Kosovo
 Republic+of+Kosovo	Kosovo
 Kuwait	Kuwait
+kuwait	Kuwait
 Kyrgyz Republic	Kyrgyz Republic
 Kyrgyzstan	Kyrgyzstan
 Lao P.D.R.	Lao P.D.R.
@@ -213,22 +260,30 @@ Lao PDR	Lao P.D.R.
 Lao People's Democratic Republic	Lao P.D.R.
 Laos	Laos
 Latvia	Latvia
+latvia	Latvia
 Lebanon	Lebanon
+lebanon	Lebanon
 Lesotho	Lesotho
 Liberia	Liberia
 Libya	Libya
+libya	Libya
 Liechtenstein	Liechtenstein
 Lithuania	Lithuania
+lithuania	Lithuania
 Luxembourg	Luxembourg
+luxemburg	Luxembourg
 Macedonia	Macedonia
 Macedonia+(FYROM)	Macedonia
 Macedonia, FYR	Macedonia
 Madagascar	Madagascar
 Malawi	Malawi
+malawi	Malawi
 Malaysia	Malaysia
+malaysia	Malaysia
 Maldives	Maldives
 Mali	Mali
 Malta	Malta
+malta	Malta
 Marshall Islands	Marshall Islands
 Marshall Islands, Republic of	Marshall Islands
 Marshall+Islands	Marshall Islands
@@ -238,6 +293,7 @@ Mauritius	Mauritius
 Mayotte	Mayotte
 Melanesia	Melanesia
 Mexico	Mexico
+mexico	Mexico
 Micronesia	Micronesia
 Micronesia (Fed. States of)	Micronesia
 Micronesia, Federated States of	Micronesia
@@ -248,23 +304,29 @@ Mongolia	Mongolia
 Montenegro	Montenegro
 Montserrat	Montserrat
 Morocco	Morocco
+morocco	Morocco
 Mozambique	Mozambique
+mozambique	Mozambique
 Myanmar	Myanmar
 Myanmar+(Burma)	Myanmar
 Republic+of+the+Union+of+Myanmar	Myanmar
 Namibia	Namibia
 Nauru	Nauru
 Nepal	Nepal
+nepal	Nepal
 Netherlands	Netherlands
+netherlands	Netherlands
 Netherlands Antilles	Netherlands Antilles
 Netherlands+Antilles	Netherlands Antilles
 New Caledonia	New Caledonia
 New+Caledonia	New Caledonia
 New Zealand	New Zealand
 New+Zealand	New Zealand
+new-zealand	New Zealand
 Nicaragua	Nicaragua
 Niger	Niger
 Nigeria	Nigeria
+nigeria	Nigeria
 Niue	Niue
 Norfolk Island	Norfolk Island
 Norfolk+Island	Norfolk Island
@@ -276,32 +338,41 @@ Northern Europe	Northern Europe
 Northern Mariana Islands	Northern Mariana Islands
 Northern+Mariana+Islands	Northern Mariana Islands
 Norway	Norway
+norway	Norway
 Kingdom+of+Norway	Norway
 Oman	Oman
 Pacific island small states	Pacific island small states
 Pakistan	Pakistan
+pakistan	Pakistan
 Palau	Palau
 Palestine	Palestine
 Palestinian+Territories	Palestinian+Territories
 Panama	Panama
+panama	Panama
 Papua New Guinea	Papua New Guinea
 Papua+New+Guinea	Papua New Guinea
 Paraguay	Paraguay
 Peru	Peru
+peru	Peru
 Philippines	Philippines
+philippines	Philippines
 Pitcairn Islands	Pitcairn Islands
 Pitcairn+Islands	Pitcairn Islands
 Poland	Poland
+poland	Poland
 Polynesia	Polynesia
 Portugal	Portugal
+portugal	Portugal
 Puerto Rico	Puerto Rico
 Puerto+Rico	Puerto Rico
 Qatar	Qatar
 Reunion	Reunion
 Romania	Romania
+romania	Romania
 Russia	Russia
-Russian Federation	Russian Federation
-Russian+Federation	Russian Federation
+russia	Russia
+Russian Federation	Russia
+Russian+Federation	Russia
 Rwanda	Rwanda
 Saint Helena	Saint Helena
 Saint Kitts and Nevis	Saint Kitts and Nevis
@@ -324,40 +395,51 @@ São Tomé and Principe	Sao Tome and Principe
 São Tomé and Príncipe	Sao Tome and Principe
 Saudi Arabia	Saudi Arabia
 Saudi+Arabia	Saudi Arabia
+saudi-arabia	Saudi Arabia
 SEFER + SSIO (**)	SEFER + SSIO (**)
 Senegal	Senegal
+senegal	Senegal
 Serbia	Serbia
+serbia	Serbia
 Serbia, Republic of	Serbia
 Seychelles	Seychelles
 Sierra Leone	Sierra Leone
 Sierra+Leone	Sierra Leone
+sierra-leone	Sierra Leone
 Singapore	Singapore
+singapore	Singapore
 Sint Maarten	Sint Maarten
 Sint Maarten (Dutch part)	Sint Maarten
 Sint+Maarten	Sint Maarten
 Slovak Republic	Slovak Republic
 Slovakia	Slovakia
+slovakia	Slovakia
 Slovenia	Slovenia
+slovenia	Slovenia
 Small states	Small states
 Solomon Islands	Solomon Islands
 Solomon+Islands	Solomon Islands
 Somalia	Somalia
 South Africa	South Africa
 South+Africa	South Africa
+south-africa	South Africa
 South America	South America
 South Asia	South Asia
 South Sudan	South Sudan
 South+Georgia+and+the+South+Sandwich+Islands	South+Georgia+and+the+South+Sandwich+Islands
 South+Korea	South+Korea
 South+Sudan	South+Sudan
+south-korea	South+Sudan
 South-Central Asia	South-Central Asia
 South-Eastern Asia	South-Eastern Asia
 Southern Africa	Southern Africa
 Southern Asia	Southern Asia
 Southern Europe	Southern Europe
 Spain	Spain
+spain	Spain
 Sri Lanka	Sri Lanka
 Sri+Lanka	Sri Lanka
+sri_lanka	Sri Lanka
 St+Helena	St+Helena
 St+Pierre+and+Miquelon	St+Pierre+and+Miquelon
 St. Kitts and Nevis	St. Kitts and Nevis
@@ -370,19 +452,26 @@ St+Vincent+and+the+Grenadines	St. Vincent and the Grenadines
 State of Palestine	State of Palestine
 Sudan	Sudan
 Suriname	Suriname
+surinam	Suriname
 Svalbard+and+Jan+Mayen	Svalbard+and+Jan+Mayen
 Swaziland	Swaziland
 Sweden	Sweden
+sweden	Sweden
 Kingdom+of+Sweden	Sweden
 Switzerland	Switzerland
+switzerland	Switzerland
 Syria	Syria
+syria	Syria
 Syrian Arab Republic	Syrian Arab Republic
 Taiwan	Taiwan
+taiwan	Taiwan
 Taiwan Province of China	Taiwan
 Tajikistan	Tajikistan
 Tanzania	Tanzania
+tanzania	Tanzania
 TFYR Macedonia	TFYR Macedonia
 Thailand	Thailand
+thailand	Thailand
 The Bahamas	The Bahamas
 The+Bahamas	The Bahamas
 The Gambia	The Gambia
@@ -397,8 +486,10 @@ Tonga	Tonga
 Trinidad and Tobago	Trinidad and Tobago
 Trinidad+&amp;+Tobago	Trinidad and Tobago
 Trinidad+and+Tobago	Trinidad and Tobago
+trinidad	Trinidad and Tobago
 Tunisia	Tunisia
 Turkey	Turkey
+turkey	Turkey
 Turkmenistan	Turkmenistan
 Turks and Caicos Islands	Turks and Caicos Islands
 Turks+and+Caicos+Islands	Turks and Caicos Islands
@@ -406,18 +497,23 @@ Tuvalu	Tuvalu
 U.S.+Virgin+Islands	U.S.+Virgin+Islands
 Uganda	Uganda
 Ukraine	Ukraine
+ukraine	Ukraine
 United Arab Emirates	United Arab Emirates
+United+Arab+Emirates	United Arab Emirates
+arab-emirates	United Arab Emirates
 United Kingdom	United Kingdom
+united-kingdom	United Kingdom
 United Republic of Tanzania	United Republic of Tanzania
 United States	United States
+united-states	United States
 United States of America	United States
 United+States	United States
 United States Virgin Islands	United States Virgin Islands
 United+States+Virgin+Islands	United States Virgin Islands
-United+Arab+Emirates	United+Arab+Emirates
 United+Kingdom	United+Kingdom
 United+States+Minor+Outlying+Islands	United+States+Minor+Outlying+Islands
 Uruguay	Uruguay
+uruguay	Uruguay
 US Pacific Islands	US Pacific Islands
 US Virgin Islands	US Virgin Islands
 US+Virgin+Islands	US Virgin Islands
@@ -427,11 +523,13 @@ Vanuatu	Vanuatu
 Vatican	Vatican
 Vatican+City	Vatican+City
 Venezuela	Venezuela
+venezuela	Venezuela
 Venezuela (Bolivarian Republic of)	Venezuela
 Venezuela, Republica Bolivariana de	Venezuela
 Venezuela, República Bolivariana de	Venezuela
 Viet Nam	Viet Nam
 Vietnam	Viet Nam
+vietnam	Viet Nam
 Virgin Islands	Virgin Islands
 Virgin Islands, British	Virgin Islands
 Virgin+Islands	Virgin Islands
@@ -447,4 +545,5 @@ Western+Sahara	Western Sahara
 Yemen	Yemen
 Yemen, Republic of	Yemen
 Zambia	Zambia
+zambia	Zambia
 Zimbabwe	Zimbabwe
