@@ -1,5 +1,5 @@
-COUNTRY	LANGUAGES(%)
-Afghanistan	Afghan Persian or Dari
+COUNTRY	X
+Afghanistan	Afghan Persian
 Akrotiri	English
 Albania	Albanian
 Algeria	Arabic
@@ -34,7 +34,7 @@ Bulgaria	Bulgarian
 Burkina Faso	French
 Burma	Burmese
 Burundi	Kirundi
-Cabo Verde	Portuguese 
+Cabo Verde	Portuguese
 Cambodia	Khmer
 Cameroon	English
 Canada	English
@@ -47,7 +47,7 @@ Christmas Island	English
 Cocos (Keeling) Islands	Malay
 Colombia	Spanish
 Comoros	Arabic
-Congo, Democratic Republic of the	French 
+Congo, Democratic Republic of the	French
 Congo, Republic of the	French
 Cook Islands	English
 Costa Rica	Spanish
@@ -68,7 +68,7 @@ Equatorial Guinea	Spanish
 Eritrea	Tigrinya
 Estonia	Estonian
 Ethiopia	Oromo
-Falkland Islands (Islas Malvinas)	English 
+Falkland Islands (Islas Malvinas)	English
 Faroe Islands	Faroese
 Fiji	English
 Finland	Finnish
@@ -80,9 +80,9 @@ Gaza Strip	Arabic
 Georgia	Georgian
 Germany	German
 Ghana	Asante
-Gibraltar	English 
+Gibraltar	English
 Greece	Greek
-Greenland	Greenlandic 
+Greenland	Greenlandic
 Grenada	English
 Guam	English
 Guatemala	Spanish
@@ -179,7 +179,7 @@ Saint Kitts and Nevis	English
 Saint Lucia	English
 Saint Martin	French
 Saint Pierre and Miquelon	French
-Saint Vincent and the Grenadines	English,
+Saint Vincent and the Grenadines	English
 Samoa	Samoan
 San Marino	Italian
 Sao Tome and Principe	Portuguese
@@ -231,7 +231,7 @@ Venezuela	Spanish
 Vietnam	Vietnamese
 Virgin Islands	English
 Wallis and Futuna	Wallisian
-Western Sahara	Standard Arabic 
+Western Sahara	Standard Arabic
 Yemen	Arabic
 Zambia	Bembe
 Zimbabwe	Shona

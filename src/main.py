@@ -71,6 +71,10 @@ def task3() :
         'X12' : ('M', 0, 'mas'),
         'X13' : ('M', 0, 'pdi'),
         'X14' : ('M', 0, 'uai'),
+        'X15' : ('V', 1, 'Area1'),
+        'X16' : ('V', 2, 'Area2'),
+        'X17' : ('M', 0, 'Language'),
+        'X18' : ('M', 0, 'Religion'),
         'Y02' : ('M', 0, 'Y02'),
         'Y03' : ('M', 0, 'Y03'),
         'Y04' : ('M', 0, 'Y04'),
@@ -92,6 +96,10 @@ def task3() :
         for variable in variables.keys()])
     result = {}
     country_mapping = dict(load_txt(open('../data/country_names.txt'), is_matrix = True))
+    # for country in data['X18'].keys() :
+    #     if country_mapping.get(country) is None :
+    #         print country
+    # exit()
     for variable, datum in data.items() :
         if variables[variable][0] == 'M' :
             for raw_country1 in datum.keys() :
@@ -131,7 +139,7 @@ def task3() :
                         # print result[key]['COUNTRY2'], result[key]['RAW_COUNTRY2'], variable
                         continue
                     result[key][variables[variable][2]] = datum[country]['X']
-    xs = ['X01', 'X02', 'X03', 'X04', 'X05', 'X06', 'X07', 'X08', 'X09', 'X10', 'X11', 'X12', 'X13', 'X14']
+    xs = ['X01', 'X02', 'X03', 'X04', 'X05', 'X06', 'X07', 'X08', 'X09', 'X10', 'X11', 'X12', 'X13', 'X14', 'X15', 'X16', 'X17', 'X18']
     ys = ['Y02', 'Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'Y16', 'Y17']
     for key in result.keys() :
         x_values = filter(lambda _ : _ not in [ None, '[NONE]' ], map(result[key].get, [ variables[x][2] for x in xs ]))
@@ -199,7 +207,8 @@ def task6() :
         'lto' : 'X11',
         'mas' : 'X12',
         'pdi' : 'X13',
-        'uai' : 'X14'}
+        'uai' : 'X14'
+    }
     for field in fields.keys() :
         result = {}
         for index1 in range(0, len(data)) :
@@ -222,6 +231,27 @@ def task6() :
                 else :
                     _ = 1.0 * int(data[index1][1][field]) / int(data[index2][1][field])
                     result[country1][country2] = '%.2f' % _
+        dump_txt(open('../data/X&Y/%s.txt' % fields[field], 'w')\
+            , sorted(result.values(), key = lambda datum : datum['COUNTRY'])\
+            , fields = ['COUNTRY'] + sorted([datum['COUNTRY'] for datum in result.values()])\
+            , default = '[NONE]')
+
+def task7() :
+    fields = {
+        'language' : 'X17',
+        'religion' : 'X18',
+    }
+    for field in fields.keys() :
+        data = load_txt(open('../data/Xs/%s.txt' % field), primary_key = 'COUNTRY')
+        countries = sorted(data.keys())
+        result = {}
+        for country1 in countries :
+            result[country1] = { 'COUNTRY' : country1 }
+            for country2 in countries :
+                if data[country1]['X'] == data[country2]['X'] :
+                    result[country1][country2] = '1'
+                else :
+                    result[country1][country2] = '0'
         dump_txt(open('../data/X&Y/%s.txt' % fields[field], 'w')\
             , sorted(result.values(), key = lambda datum : datum['COUNTRY'])\
             , fields = ['COUNTRY'] + sorted([datum['COUNTRY'] for datum in result.values()])\

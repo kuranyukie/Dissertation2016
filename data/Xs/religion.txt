@@ -1,4 +1,4 @@
-COUNTRY	RELIGIONS(%)
+COUNTRY	X
 Afghanistan	Muslim
 Albania	Muslim
 Algeria	Muslim
