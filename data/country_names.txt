@@ -45,7 +45,8 @@ Bonaire,+Sint+Eustatius+and+Saba	Bonaire, Sint Eustatius and Saba
 Bosnia and Herzegovina	Bosnia and Herzegovina
 Bosnia+and+Herzegovina	Bosnia and Herzegovina
 Botswana	Botswana
-Bouvet+Island	Bouvet+Island
+Bouvet+Island	Bouvet Island
+Bouvet Island	Bouvet Island
 Brazil	Brazil
 brazil	Brazil
 British Indian Ocean Territory	British Indian Ocean Territory
@@ -92,6 +93,7 @@ Hong Kong SAR	China, Hong Kong SAR
 Hong Kong SAR, China	China, Hong Kong SAR
 Hong+Kong	China, Hong Kong SAR
 hong-kong	China, Hong Kong SAR
+Hong Kong	China, Hong Kong SAR
 China, Macao SAR	China, Macao SAR
 China, P.R.: Macao	China, Macao SAR
 Macao SAR, China	China, Macao SAR
@@ -107,7 +109,9 @@ Commonwealth+of+Puerto+Rico	Commonwealth+of+Puerto+Rico
 Commonwealth+of+The+Bahamas	Commonwealth+of+The+Bahamas
 Comoros	Comoros
 Congo	Congo
+Congo, Republic of the	Congo
 Congo, Democratic Republic of	Congo
+Congo, Democratic Republic of the	Congo
 Congo, Republic of	Congo
 Republic of Congo	Congo
 Republic+of+the+Congo	Congo
@@ -130,8 +134,6 @@ Cyprus	Cyprus
 Czech Republic	Czech Republic
 Czech+Republic	Czech Republic
 czech-republic	Czech Republic
-Dem. People's Rep. Korea	Dem. People's Rep. Korea
-Dem. People's Republic of Korea	Dem. People's Rep. Korea
 Democratic Republic of the Congo	Democratic Republic of the Congo
 Dem. Rep. Congo	Democratic Republic of the Congo
 Democratic+Republic+of+the+Congo	Democratic Republic of the Congo
@@ -177,7 +179,8 @@ French Guiana	French Guiana
 French+Guiana	French Guiana
 French Polynesia	French Polynesia
 French+Polynesia	French Polynesia
-French+Southern+and+Antarctic+Lands	French+Southern+and+Antarctic+Lands
+French+Southern+and+Antarctic+Lands	French Southern and Antarctic Lands
+French Southern and Antarctic Lands	French Southern and Antarctic Lands
 FYR Macedonia	FYR Macedonia
 Gabon	Gabon
 Gambia	Gambia
@@ -202,9 +205,11 @@ Guinea	Guinea
 Guinea-Bissau	Guinea
 Guyana	Guyana
 Haiti	Haiti
-Heard+Island+and+McDonald+Islands	Heard+Island+and+McDonald+Islands
+Heard+Island+and+McDonald+Islands	Heard Island and McDonald Islands
+Heard Island and McDonald Islands	Heard Island and McDonald Islands
 Heavily indebted poor countries (HIPC)	Heavily indebted poor countries (HIPC)
 Holy See	Holy See
+Holy See (Vatican City)	Holy See
 Honduras	Honduras
 Hungary	Hungary
 hungary	Hungary
@@ -232,10 +237,12 @@ Italy	Italy
 italy	Italy
 Jamaica	Jamaica
 jamaica	Jamaica
-Jan+Mayen	Jan+Mayen
+Jan+Mayen	Jan Mayen
+Jan Mayen	Jan Mayen
 Japan	Japan
 japan	Japan
 Jarvis+Island	Jarvis+Island
+Jarvis Island	Jarvis+Island
 Jersey	Jersey
 Jordan	Jordan
 jordan	Jordan
@@ -243,10 +250,12 @@ Kazakhstan	Kazakhstan
 Kenya	Kenya
 kenya	Kenya
 Kiribati	Kiribati
-Korea	Korea
-Korea, Democratic People's Rep. of	Korea
-Korea, Republic of	Korea
-Republic of Korea	Korea
+Korea, Democratic People's Rep. of	North Korea
+Korea, Republic of	North Korea
+Republic of Korea	North Korea
+Dem. People's Rep. Korea	North Korea
+Dem. People's Republic of Korea	North Korea
+North+Korea	North Korea
 Kosovo	Kosovo
 Kosova+(Kosovo)	Kosovo
 Kosovo, Republic of	Kosovo
@@ -331,7 +340,6 @@ Niue	Niue
 Norfolk Island	Norfolk Island
 Norfolk+Island	Norfolk Island
 North America	North America
-North+Korea	North+Korea
 Northern Africa	Northern Africa
 NORTHERN AMERICA	NORTHERN AMERICA
 Northern Europe	Northern Europe
@@ -375,6 +383,7 @@ Russian Federation	Russia
 Russian+Federation	Russia
 Rwanda	Rwanda
 Saint Helena	Saint Helena
+Saint Helena, Ascension, and Tristan da Cunha	Saint Helena
 Saint Kitts and Nevis	Saint Kitts and Nevis
 Saint+Kitts+and+Nevis	Saint Kitts and Nevis
 Saint Lucia	Saint Lucia
@@ -384,7 +393,10 @@ Saint+Pierre+and+Miquelon	Saint Pierre and Miquelon
 Saint Vincent and the Grenadines	Saint Vincent and the Grenadines
 Saint+Barthelemy	Saint+Barthelemy
 Saint-Barthelemy	Saint+Barthelemy
+Saint Barthelemy	Saint+Barthelemy
 Saint+Martin	Saint+Martin
+Saint Martin	Saint+Martin
+St. Martin (French part)	Saint+Martin
 Saint+Vincent+and+the+Grenadines	Saint+Vincent+and+the+Grenadines
 Samoa	Samoa
 San Marino	San Marino
@@ -425,11 +437,13 @@ South+Africa	South Africa
 south-africa	South Africa
 South America	South America
 South Asia	South Asia
+South+Georgia+and+the+South+Sandwich+Islands	South Georgia and South Sandwich Islands
+South Georgia and South Sandwich Islands	South Georgia and South Sandwich Islands
+South+Korea	South Korea
+Korea	South Korea
 South Sudan	South Sudan
-South+Georgia+and+the+South+Sandwich+Islands	South+Georgia+and+the+South+Sandwich+Islands
-South+Korea	South+Korea
-South+Sudan	South+Sudan
-south-korea	South+Sudan
+South+Sudan	South Sudan
+south-sudan	South Sudan
 South-Central Asia	South-Central Asia
 South-Eastern Asia	South-Eastern Asia
 Southern Africa	Southern Africa
@@ -446,7 +460,6 @@ St. Kitts and Nevis	St. Kitts and Nevis
 St+Kitts+and+Nevis	St. Kitts and Nevis
 St. Lucia	St. Lucia
 St+Lucia	St. Lucia
-St. Martin (French part)	St. Martin (French part)
 St. Vincent and the Grenadines	St. Vincent and the Grenadines
 St+Vincent+and+the+Grenadines	St. Vincent and the Grenadines
 State of Palestine	State of Palestine
@@ -454,6 +467,7 @@ Sudan	Sudan
 Suriname	Suriname
 surinam	Suriname
 Svalbard+and+Jan+Mayen	Svalbard+and+Jan+Mayen
+Svalbard	Svalbard+and+Jan+Mayen
 Swaziland	Swaziland
 Sweden	Sweden
 sweden	Sweden
@@ -537,6 +551,7 @@ Wallis and Futuna	Wallis and Futuna
 Wallis and Futuna Islands	Wallis and Futuna
 Wallis+and+Futuna	Wallis and Futuna
 West Bank and Gaza	West Bank and Gaza
+West Bank	West Bank and Gaza
 Western Africa	Western Africa
 Western Asia	Western Asia
 Western Europe	Western Europe
