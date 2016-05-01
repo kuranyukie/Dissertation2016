@@ -85,26 +85,46 @@ def task3() :
     data = dict([(variable, load_txt(open('../data/X&Y/%s.txt' % variable), primary_key = 'COUNTRY', cast = cast)) \
         for variable in variables.keys()])
     result = {}
-    country_mapping = {}
+    country_mapping = dict(load_txt(open('../data/country_names.txt'), is_matrix = True))
     for variable, datum in data.items() :
         if variables[variable][0] == 'M' :
             for raw_country1 in datum.keys() :
                 country1 = country_mapping.get(raw_country1)
                 if country1 is None : continue
-                for raw_country2 in datum[country1].keys() :
+                for raw_country2 in datum[raw_country1].keys() :
                     country2 = country_mapping.get(raw_country2)
-                    if country2 == 'COUNTRY' or country1 == country2: continue
+                    if country2 is None or raw_country2 == 'COUNTRY' or country1 == country2: continue
                     key = '%s@%s' % (country1, country2)
                     if result.get(key) is None :
-                        result[key] = { 'COUNTRY' : key , 'COUNTRY1' : raw_country1, 'COUNTRY2' : raw_country2 }
+                        result[key] = {
+                            'COUNTRY'      : key ,
+                            'COUNTRY1'     : country1,
+                            'COUNTRY2'     : country2,
+                            'RAW_COUNTRY1' : raw_country1,
+                            'RAW_COUNTRY2' : raw_country2,
+                        }
                     result[key][variable] = datum[raw_country1][raw_country2]
     for variable, datum in data.items() :
         if variables[variable][0] == 'V' :
             for key in result.keys() :
-                if variables[variable][1] == 1 and datum.get(result[key]['COUNTRY1']) is not None :
-                    result[key][variable] = datum[result[key]['COUNTRY1']]['X']
-                if variables[variable][1] == 2 and datum.get(result[key]['COUNTRY2']) is not None :
-                    result[key][variable] = datum[result[key]['COUNTRY2']]['X']
+                if variables[variable][1] == 1 :
+                    if datum.get(result[key]['COUNTRY1']) is not None :
+                        country = result[key]['COUNTRY1']
+                    elif datum.get(result[key]['RAW_COUNTRY1']) is not None :
+                        country = result[key]['RAW_COUNTRY1']
+                    else :
+                        # print result[key]['COUNTRY1'], result[key]['RAW_COUNTRY1'], variable
+                        continue
+                    result[key][variable] = datum[country]['X']
+                if variables[variable][1] == 2 :
+                    if datum.get(result[key]['COUNTRY2']) is not None :
+                        country = result[key]['COUNTRY2']
+                    elif datum.get(result[key]['RAW_COUNTRY2']) is not None :
+                        country = result[key]['RAW_COUNTRY2']
+                    else :
+                        # print result[key]['COUNTRY2'], result[key]['RAW_COUNTRY2'], variable
+                        continue
+                    result[key][variable] = datum[country]['X']
     xs = ['X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'X7', 'X8']
     ys = ['Y02', 'Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'Y16', 'Y17']
     for key in result.keys() :
@@ -114,12 +134,10 @@ def task3() :
         else :
             y_values = map(float, y_values)
             result[key]['Y'] = str(calc_mean(y_values))
-    # print j(result)
-    # exit()
     result = result.values()
     dump_txt(open('../data/data.txt', 'w')\
         , sorted(result, key = lambda datum : datum['COUNTRY'])\
-        , fields = ['COUNTRY'] + sorted(variables.keys())[:8] + ['Y'], default = '[NONE]')
+        , fields = ['COUNTRY'] + ['Y'] + xs, default = '[NONE]')
 
 def task4() :
     country_mapping = dict(load_txt(open('../data/country_names.txt'), is_matrix = True))
@@ -185,4 +203,4 @@ def task6() :
 
 if __name__ == '__main__':
     # python main.py -n=5 -ma=3 -t=10 -q=0
-    task6()
+    task3()
